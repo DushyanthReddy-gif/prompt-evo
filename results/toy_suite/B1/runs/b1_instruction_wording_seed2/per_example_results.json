@@ -1,0 +1,1086 @@
+{
+  "best": [
+    {
+      "example_id": "c049",
+      "input": "Review: The hotel was not excellent.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 1.4543533325195312e-05
+    },
+    {
+      "example_id": "c031",
+      "input": "Review: The show was fantastic.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 9.059906005859375e-06
+    },
+    {
+      "example_id": "c041",
+      "input": "Review: The book was not great.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 7.62939453125e-06
+    },
+    {
+      "example_id": "c009",
+      "input": "Review: The book was superb.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c015",
+      "input": "Review: The meal was fantastic.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c057",
+      "input": "Review: The phone was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c006",
+      "input": "Review: The service was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c020",
+      "input": "Review: The hotel was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c036",
+      "input": "Review: The hotel was not fantastic.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c030",
+      "input": "Review: The book was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c043",
+      "input": "Review: The meal was not terrible.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c026",
+      "input": "Review: The hotel was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c039",
+      "input": "Review: The book was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c029",
+      "input": "Review: The show was poor.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c008",
+      "input": "Review: The meal was disappointing.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c004",
+      "input": "Review: The service was not dreadful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c018",
+      "input": "Review: The meal was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c035",
+      "input": "Review: The game was awful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c022",
+      "input": "Review: The hotel was not dreadful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c000",
+      "input": "Review: The show was terrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c021",
+      "input": "Review: The game was not poor.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 8.58306884765625e-06
+    },
+    {
+      "example_id": "c007",
+      "input": "Review: The meal was not delightful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 7.152557373046875e-06
+    },
+    {
+      "example_id": "c024",
+      "input": "Review: The hotel was superb.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c033",
+      "input": "Review: The game was disappointing.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c059",
+      "input": "Review: The hotel was disappointing.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c048",
+      "input": "Review: The hotel was not horrible.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 9.775161743164062e-06
+    },
+    {
+      "example_id": "c046",
+      "input": "Review: The movie was fantastic.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c012",
+      "input": "Review: The show was excellent.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c050",
+      "input": "Review: The movie was superb.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c014",
+      "input": "Review: The game was horrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c011",
+      "input": "Review: The movie was great.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c001",
+      "input": "Review: The phone was not great.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c044",
+      "input": "Review: The book was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c017",
+      "input": "Review: The service was fantastic.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c045",
+      "input": "Review: The phone was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c028",
+      "input": "Review: The meal was wonderful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c034",
+      "input": "Review: The meal was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c058",
+      "input": "Review: The phone was not disappointing.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c032",
+      "input": "Review: The phone was not horrible.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c025",
+      "input": "Review: The service was not wonderful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c040",
+      "input": "Review: The meal was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.7220458984375e-06
+    },
+    {
+      "example_id": "c027",
+      "input": "Review: The service was not awful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c052",
+      "input": "Review: The book was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c037",
+      "input": "Review: The game was excellent.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c002",
+      "input": "Review: The hotel was terrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c051",
+      "input": "Review: The meal was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c013",
+      "input": "Review: The movie was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c038",
+      "input": "Review: The movie was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c016",
+      "input": "Review: The book was fantastic.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c019",
+      "input": "Review: The phone was superb.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c042",
+      "input": "Review: The meal was horrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 1.1444091796875e-05
+    },
+    {
+      "example_id": "c047",
+      "input": "Review: The show was not disappointing.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 8.106231689453125e-06
+    },
+    {
+      "example_id": "c010",
+      "input": "Review: The hotel was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 7.152557373046875e-06
+    },
+    {
+      "example_id": "c053",
+      "input": "Review: The phone was delightful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c023",
+      "input": "Review: The show was not awful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c056",
+      "input": "Review: The hotel was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c005",
+      "input": "Review: The hotel was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c003",
+      "input": "Review: The book was awful.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c054",
+      "input": "Review: The book was not horrible.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c055",
+      "input": "Review: The service was great.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.7220458984375e-06
+    }
+  ],
+  "seed": [
+    {
+      "example_id": "c049",
+      "input": "Review: The hotel was not excellent.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 1.1682510375976562e-05
+    },
+    {
+      "example_id": "c031",
+      "input": "Review: The show was fantastic.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 8.821487426757812e-06
+    },
+    {
+      "example_id": "c041",
+      "input": "Review: The book was not great.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 7.3909759521484375e-06
+    },
+    {
+      "example_id": "c009",
+      "input": "Review: The book was superb.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c015",
+      "input": "Review: The meal was fantastic.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c057",
+      "input": "Review: The phone was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c006",
+      "input": "Review: The service was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c020",
+      "input": "Review: The hotel was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 3.0517578125e-05
+    },
+    {
+      "example_id": "c036",
+      "input": "Review: The hotel was not fantastic.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 8.58306884765625e-06
+    },
+    {
+      "example_id": "c030",
+      "input": "Review: The book was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 7.62939453125e-06
+    },
+    {
+      "example_id": "c043",
+      "input": "Review: The meal was not terrible.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 7.3909759521484375e-06
+    },
+    {
+      "example_id": "c026",
+      "input": "Review: The hotel was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 7.3909759521484375e-06
+    },
+    {
+      "example_id": "c039",
+      "input": "Review: The book was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c029",
+      "input": "Review: The show was poor.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 7.152557373046875e-06
+    },
+    {
+      "example_id": "c008",
+      "input": "Review: The meal was disappointing.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c004",
+      "input": "Review: The service was not dreadful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 7.152557373046875e-06
+    },
+    {
+      "example_id": "c018",
+      "input": "Review: The meal was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c035",
+      "input": "Review: The game was awful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c022",
+      "input": "Review: The hotel was not dreadful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c000",
+      "input": "Review: The show was terrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c021",
+      "input": "Review: The game was not poor.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c007",
+      "input": "Review: The meal was not delightful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c024",
+      "input": "Review: The hotel was superb.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c033",
+      "input": "Review: The game was disappointing.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c059",
+      "input": "Review: The hotel was disappointing.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c048",
+      "input": "Review: The hotel was not horrible.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c046",
+      "input": "Review: The movie was fantastic.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c012",
+      "input": "Review: The show was excellent.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.7220458984375e-06
+    },
+    {
+      "example_id": "c050",
+      "input": "Review: The movie was superb.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c014",
+      "input": "Review: The game was horrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c011",
+      "input": "Review: The movie was great.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c001",
+      "input": "Review: The phone was not great.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c044",
+      "input": "Review: The book was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c017",
+      "input": "Review: The service was fantastic.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c045",
+      "input": "Review: The phone was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c028",
+      "input": "Review: The meal was wonderful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c034",
+      "input": "Review: The meal was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c058",
+      "input": "Review: The phone was not disappointing.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c032",
+      "input": "Review: The phone was not horrible.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c025",
+      "input": "Review: The service was not wonderful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c040",
+      "input": "Review: The meal was great.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c027",
+      "input": "Review: The service was not awful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c052",
+      "input": "Review: The book was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c037",
+      "input": "Review: The game was excellent.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c002",
+      "input": "Review: The hotel was terrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.9141387939453125e-06
+    },
+    {
+      "example_id": "c051",
+      "input": "Review: The meal was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c013",
+      "input": "Review: The movie was poor.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c038",
+      "input": "Review: The movie was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c016",
+      "input": "Review: The book was fantastic.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c019",
+      "input": "Review: The phone was superb.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c042",
+      "input": "Review: The meal was horrible.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c047",
+      "input": "Review: The show was not disappointing.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c010",
+      "input": "Review: The hotel was dreadful.",
+      "expected_output": "negative",
+      "model_output": "negative",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c053",
+      "input": "Review: The phone was delightful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 5.9604644775390625e-06
+    },
+    {
+      "example_id": "c023",
+      "input": "Review: The show was not awful.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    },
+    {
+      "example_id": "c056",
+      "input": "Review: The hotel was wonderful.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c005",
+      "input": "Review: The hotel was excellent.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.198883056640625e-06
+    },
+    {
+      "example_id": "c003",
+      "input": "Review: The book was awful.",
+      "expected_output": "negative",
+      "model_output": "positive",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 5.7220458984375e-06
+    },
+    {
+      "example_id": "c054",
+      "input": "Review: The book was not horrible.",
+      "expected_output": "positive",
+      "model_output": "negative",
+      "correct": false,
+      "category": "no_answer_marker",
+      "latency": 6.67572021484375e-06
+    },
+    {
+      "example_id": "c055",
+      "input": "Review: The service was great.",
+      "expected_output": "positive",
+      "model_output": "positive",
+      "correct": true,
+      "category": null,
+      "latency": 6.4373016357421875e-06
+    }
+  ]
+}

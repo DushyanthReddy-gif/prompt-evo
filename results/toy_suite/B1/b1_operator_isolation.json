@@ -1,0 +1,68 @@
+[
+  {
+    "operator": "constraints",
+    "gain_metric": "test",
+    "gain_mean": 0.12777777777777774,
+    "gain_std": 0.009622504486493794,
+    "gain_ci_low": 0.10387415150139176,
+    "gain_ci_high": 0.15168140405416372,
+    "gain_n": 3,
+    "mean_dev_gain": 0.22222222222222218,
+    "mean_successful_mutations": 7.666666666666667
+  },
+  {
+    "operator": "few_shot",
+    "gain_metric": "test",
+    "gain_mean": 0.08888888888888884,
+    "gain_std": 0.009622504486493794,
+    "gain_ci_low": 0.06498526261250286,
+    "gain_ci_high": 0.11279251516527482,
+    "gain_n": 3,
+    "mean_dev_gain": 0.14999999999999994,
+    "mean_successful_mutations": 8.333333333333334
+  },
+  {
+    "operator": "instruction_wording",
+    "gain_metric": "test",
+    "gain_mean": 0.07222222222222215,
+    "gain_std": 0.01924500897298752,
+    "gain_ci_low": 0.02441496966945035,
+    "gain_ci_high": 0.12002947477499394,
+    "gain_n": 3,
+    "mean_dev_gain": 0.06111111111111108,
+    "mean_successful_mutations": 3.0
+  },
+  {
+    "operator": "output_format",
+    "gain_metric": "test",
+    "gain_mean": 0.06666666666666665,
+    "gain_std": 0.0,
+    "gain_ci_low": 0.06666666666666665,
+    "gain_ci_high": 0.06666666666666665,
+    "gain_n": 3,
+    "mean_dev_gain": 0.08333333333333326,
+    "mean_successful_mutations": 2.0
+  },
+  {
+    "operator": "reasoning",
+    "gain_metric": "test",
+    "gain_mean": 0.04999999999999993,
+    "gain_std": 0.0,
+    "gain_ci_low": 0.04999999999999993,
+    "gain_ci_high": 0.04999999999999993,
+    "gain_n": 3,
+    "mean_dev_gain": 0.06666666666666665,
+    "mean_successful_mutations": 3.0
+  },
+  {
+    "operator": "instruction_ordering",
+    "gain_metric": "test",
+    "gain_mean": 0.027777777777777717,
+    "gain_std": 0.03849001794597505,
+    "gain_ci_low": -0.06783672732776588,
+    "gain_ci_high": 0.12339228288332132,
+    "gain_n": 3,
+    "mean_dev_gain": 0.016666666666666607,
+    "mean_successful_mutations": 2.0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "all_evaluated": [
+    {
+      "operator": "instruction_wording",
+      "attempts": 54,
+      "evaluated": 26,
+      "n_wins": 3,
+      "win_rate": 0.11538461538461539,
+      "success_rate": 0.48148148148148145,
+      "accept_rate": 0.09259259259259259,
+      "mean_score_delta": -0.03901896476682073,
+      "median_score_delta": -0.03122741496598641,
+      "mean_accuracy_delta": -0.038866657074513054,
+      "ci_low": -0.053821600299883234,
+      "ci_high": -0.025554385234271223,
+      "win_rate_ci_low": 0.04003171821149494,
+      "win_rate_ci_high": 0.28976293086898336,
+      "avg_examples_fixed": 0.6153846153846154,
+      "avg_examples_broken": 1.5,
+      "optimizer_calls": 56,
+      "worker_calls": 940
+    }
+  ],
+  "full_eval_only": [
+    {
+      "operator": "instruction_wording",
+      "attempts": 54,
+      "evaluated": 5,
+      "n_wins": 3,
+      "win_rate": 0.6,
+      "success_rate": 0.09259259259259259,
+      "accept_rate": 0.09259259259259259,
+      "mean_score_delta": 0.006513666666666684,
+      "median_score_delta": 0.016461666666666597,
+      "mean_accuracy_delta": 0.006666666666666665,
+      "ci_low": -0.010199999999999921,
+      "ci_high": 0.023204333333333337,
+      "win_rate_ci_low": 0.23071993220883708,
+      "win_rate_ci_high": 0.8823817688407467,
+      "avg_examples_fixed": 1.8,
+      "avg_examples_broken": 1.4,
+      "optimizer_calls": 56,
+      "worker_calls": 940
+    }
+  ]
+}

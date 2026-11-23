@@ -1,0 +1,70 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p28,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The game was horrible.
+Output: negative",2727afbebc2c9021da943e4844dc303a5104398c,0.95,0.9479599999999999,408,4,['p24'],constraints,"{'mean': 0.9493333333333335, 'std': 0.03168659659919953, 'ci_low': 0.89125, 'ci_high': 1.0, 'n_samples': 100}",2026-11-09T10:57:30.845920+00:00,0.9493333333333335,0.03168659659919953,0.95,0.9479599999999999
+p24,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The game was horrible.
+Output: negative",828a4bdc3f68dfa382d3f7c8a9737674c3746009,0.8,0.79818,364,3,['p10'],few_shot,"{'mean': 0.807, 'std': 0.05641656035977631, 'ci_low': 0.69125, 'ci_high': 0.9166666666666666, 'n_samples': 100}",2026-11-09T10:57:30.842924+00:00,0.807,0.05641656035977631,0.8,0.79818
+p16,"Classify the sentiment of the review as positive or negative. Respond accurately.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",a97f8eecb668b2610f249aef2c32fd3801c41a62,0.7833333333333333,0.7817433333333333,318,2,['p10'],instruction_wording,"{'mean': 0.7841666666666666, 'std': 0.052511288936463944, 'ci_low': 0.6745833333333333, 'ci_high': 0.8833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.838886+00:00,0.7841666666666666,0.052511288936463944,0.7833333333333333,0.7817433333333333
+p12,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",8b77883ffa951d7d04c4650fe18f7cc057c991f9,0.7833333333333333,0.7817433333333333,318,1,['p10'],reasoning,"{'mean': 0.7814999999999998, 'std': 0.05704542659887261, 'ci_low': 0.6833333333333333, 'ci_high': 0.8920833333333332, 'n_samples': 100}",2026-11-09T10:57:30.836423+00:00,0.7814999999999998,0.05704542659887261,0.7833333333333333,0.7817433333333333
+p10,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",1455f6a68f7d84adf675328898e0084a0a02b741,0.75,0.74851,298,1,['p6'],reasoning,"{'mean': 0.7418333333333333, 'std': 0.05687794836402779, 'ci_low': 0.6245833333333334, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:30.833057+00:00,0.7418333333333333,0.05687794836402779,0.75,0.74851
+p11,"Use the text of the review only.
+Output one label.
+Classify the sentiment of the review as positive or negative.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",26a8f761a21e355a0c9bdba87599c34b412b19db,0.75,0.74851,298,1,['p10'],instruction_ordering,"{'mean': 0.7471666666666666, 'std': 0.05788330495180507, 'ci_low': 0.64125, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:30.834597+00:00,0.7471666666666666,0.05788330495180507,0.75,0.74851

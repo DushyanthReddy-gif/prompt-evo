@@ -1,0 +1,60 @@
+{"id": "q000", "input": "Q: Kenya's capital is which city?", "expected_output": "Nairobi"}
+{"id": "q001", "input": "Q: Name the capital city of Iran.", "expected_output": "Tehran"}
+{"id": "q002", "input": "Q: What is the capital of Ireland?", "expected_output": "Dublin"}
+{"id": "q003", "input": "Q: What is the capital of Japan?", "expected_output": "Tokyo"}
+{"id": "q004", "input": "Q: Ghana's capital is which city?", "expected_output": "Accra"}
+{"id": "q005", "input": "Q: China's capital is which city?", "expected_output": "Beijing"}
+{"id": "q006", "input": "Q: Name the capital city of Spain.", "expected_output": "Madrid"}
+{"id": "q007", "input": "Q: Name the capital city of Iraq.", "expected_output": "Baghdad"}
+{"id": "q008", "input": "Q: Which city is the capital of Italy?", "expected_output": "Rome"}
+{"id": "q009", "input": "Q: Iran's capital is which city?", "expected_output": "Tehran"}
+{"id": "q010", "input": "Q: Name the capital city of China.", "expected_output": "Beijing"}
+{"id": "q011", "input": "Q: Name the capital city of Cuba.", "expected_output": "Havana"}
+{"id": "q012", "input": "Q: What is the capital of Turkey?", "expected_output": "Ankara"}
+{"id": "q013", "input": "Q: Which city is the capital of Chile?", "expected_output": "Santiago"}
+{"id": "q014", "input": "Q: Thailand's capital is which city?", "expected_output": "Bangkok"}
+{"id": "q015", "input": "Q: Which city is the capital of China?", "expected_output": "Beijing"}
+{"id": "q016", "input": "Q: Name the capital city of Kenya.", "expected_output": "Nairobi"}
+{"id": "q017", "input": "Q: What is the capital of Egypt?", "expected_output": "Cairo"}
+{"id": "q018", "input": "Q: What is the capital of Portugal?", "expected_output": "Lisbon"}
+{"id": "q019", "input": "Q: Which city is the capital of Peru?", "expected_output": "Lima"}
+{"id": "q020", "input": "Q: Which city is the capital of Cuba?", "expected_output": "Havana"}
+{"id": "q021", "input": "Q: Germany's capital is which city?", "expected_output": "Berlin"}
+{"id": "q022", "input": "Q: Which city is the capital of Kenya?", "expected_output": "Nairobi"}
+{"id": "q023", "input": "Q: Which city is the capital of Thailand?", "expected_output": "Bangkok"}
+{"id": "q024", "input": "Q: Which city is the capital of Canada?", "expected_output": "Ottawa"}
+{"id": "q025", "input": "Q: Sweden's capital is which city?", "expected_output": "Stockholm"}
+{"id": "q026", "input": "Q: What is the capital of Sweden?", "expected_output": "Stockholm"}
+{"id": "q027", "input": "Q: Norway's capital is which city?", "expected_output": "Oslo"}
+{"id": "q028", "input": "Q: Which city is the capital of Germany?", "expected_output": "Berlin"}
+{"id": "q029", "input": "Q: Name the capital city of Japan.", "expected_output": "Tokyo"}
+{"id": "q030", "input": "Q: France's capital is which city?", "expected_output": "Paris"}
+{"id": "q031", "input": "Q: Which city is the capital of Sweden?", "expected_output": "Stockholm"}
+{"id": "q032", "input": "Q: What is the capital of Iraq?", "expected_output": "Baghdad"}
+{"id": "q033", "input": "Q: What is the capital of Iran?", "expected_output": "Tehran"}
+{"id": "q034", "input": "Q: What is the capital of Austria?", "expected_output": "Vienna"}
+{"id": "q035", "input": "Q: Which city is the capital of Austria?", "expected_output": "Vienna"}
+{"id": "q036", "input": "Q: France's capital is which city?", "expected_output": "Paris"}
+{"id": "q037", "input": "Q: What is the capital of Japan?", "expected_output": "Tokyo"}
+{"id": "q038", "input": "Q: What is the capital of Ireland?", "expected_output": "Dublin"}
+{"id": "q039", "input": "Q: India's capital is which city?", "expected_output": "New Delhi"}
+{"id": "q040", "input": "Q: Name the capital city of Thailand.", "expected_output": "Bangkok"}
+{"id": "q041", "input": "Q: Germany's capital is which city?", "expected_output": "Berlin"}
+{"id": "q042", "input": "Q: What is the capital of Canada?", "expected_output": "Ottawa"}
+{"id": "q043", "input": "Q: Which city is the capital of Chile?", "expected_output": "Santiago"}
+{"id": "q044", "input": "Q: Portugal's capital is which city?", "expected_output": "Lisbon"}
+{"id": "q045", "input": "Q: Name the capital city of Peru.", "expected_output": "Lima"}
+{"id": "q046", "input": "Q: Which city is the capital of Russia?", "expected_output": "Moscow"}
+{"id": "q047", "input": "Q: Which city is the capital of Poland?", "expected_output": "Warsaw"}
+{"id": "q048", "input": "Q: Which city is the capital of Germany?", "expected_output": "Berlin"}
+{"id": "q049", "input": "Q: Name the capital city of Portugal.", "expected_output": "Lisbon"}
+{"id": "q050", "input": "Q: Greece's capital is which city?", "expected_output": "Athens"}
+{"id": "q051", "input": "Q: Name the capital city of Germany.", "expected_output": "Berlin"}
+{"id": "q052", "input": "Q: Which city is the capital of Egypt?", "expected_output": "Cairo"}
+{"id": "q053", "input": "Q: Which city is the capital of Kenya?", "expected_output": "Nairobi"}
+{"id": "q054", "input": "Q: Which city is the capital of Chile?", "expected_output": "Santiago"}
+{"id": "q055", "input": "Q: Name the capital city of Peru.", "expected_output": "Lima"}
+{"id": "q056", "input": "Q: Name the capital city of Ghana.", "expected_output": "Accra"}
+{"id": "q057", "input": "Q: Name the capital city of Norway.", "expected_output": "Oslo"}
+{"id": "q058", "input": "Q: What is the capital of Cuba?", "expected_output": "Havana"}
+{"id": "q059", "input": "Q: Which city is the capital of Iraq?", "expected_output": "Baghdad"}

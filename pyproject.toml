@@ -1,0 +1,16 @@
+[project]
+name = "prompt-evo"
+version = "0.1.0"
+description = "PromptEvo: black-box evolutionary prompt optimizer with operator-level analysis"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2", "pyyaml", "numpy", "scipy", "pandas", "matplotlib", "rich"]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["prompt_evo*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

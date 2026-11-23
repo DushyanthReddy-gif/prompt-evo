@@ -1,0 +1,235 @@
+[
+  {
+    "id": "p39",
+    "text": "Use the text of the review only.\nClassify the sentiment of the review as positive or negative. Be precise.\nClassify the sentiment of the review as positive or negative.\n\nConstraints:\n- Do not add explanations after the answer.\n- If uncertain, choose the most likely answer.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "7c410f10e2651caec052dcfab2896b1e978f26b2",
+    "accuracy": 0.75,
+    "fitness": 0.74807,
+    "length": 386,
+    "generation": 2,
+    "parent_ids": [
+      "p38"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.7525,
+      "std": 0.053830542192395504,
+      "ci_low": 0.65,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.129530+00:00",
+    "bootstrap_mean": 0.7525,
+    "bootstrap_std": 0.053830542192395504,
+    "confidence_interval": [
+      0.65,
+      0.85
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74807
+  },
+  {
+    "id": "p38",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative. Be precise.\n\nConstraints:\n- Do not add explanations after the answer.\n- If uncertain, choose the most likely answer.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "c668390b3089d0790405d8fcee5247e38441480a",
+    "accuracy": 0.75,
+    "fitness": 0.74807,
+    "length": 386,
+    "generation": 2,
+    "parent_ids": [
+      "p37"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.7573333333333333,
+      "std": 0.05475791022091755,
+      "ci_low": 0.65,
+      "ci_high": 0.8666666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.127723+00:00",
+    "bootstrap_mean": 0.7573333333333333,
+    "bootstrap_std": 0.05475791022091755,
+    "confidence_interval": [
+      0.65,
+      0.8666666666666667
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74807
+  },
+  {
+    "id": "p37",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n- If uncertain, choose the most likely answer.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "481f4491089a04d34ae22677b5f78d659341731a",
+    "accuracy": 0.7333333333333333,
+    "fitness": 0.7316833333333332,
+    "length": 330,
+    "generation": 2,
+    "parent_ids": [
+      "p34"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7328333333333334,
+      "std": 0.057072964110191735,
+      "ci_low": 0.6245833333333334,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.126054+00:00",
+    "bootstrap_mean": 0.7328333333333334,
+    "bootstrap_std": 0.057072964110191735,
+    "confidence_interval": [
+      0.6245833333333334,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.7333333333333333,
+    "penalized_fitness": 0.7316833333333332
+  },
+  {
+    "id": "p34",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "0dc459a5c873db0df6e029b9f1bbe22c6c4483f8",
+    "accuracy": 0.7,
+    "fitness": 0.6985849999999999,
+    "length": 283,
+    "generation": 2,
+    "parent_ids": [
+      "p18"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.69,
+      "std": 0.057001388133608194,
+      "ci_low": 0.5666666666666667,
+      "ci_high": 0.8,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.123423+00:00",
+    "bootstrap_mean": 0.69,
+    "bootstrap_std": 0.057001388133608194,
+    "confidence_interval": [
+      0.5666666666666667,
+      0.8
+    ],
+    "raw_accuracy": 0.7,
+    "penalized_fitness": 0.6985849999999999
+  },
+  {
+    "id": "p18",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "aaa787f3f5fcf44248d348a4ec636656abf9e3ba",
+    "accuracy": 0.6833333333333333,
+    "fitness": 0.6822083333333333,
+    "length": 225,
+    "generation": 0,
+    "parent_ids": [
+      "p1",
+      "p10"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.6878333333333333,
+      "std": 0.06636526987827077,
+      "ci_low": 0.5745833333333333,
+      "ci_high": 0.8166666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.112070+00:00",
+    "bootstrap_mean": 0.6878333333333333,
+    "bootstrap_std": 0.06636526987827077,
+    "confidence_interval": [
+      0.5745833333333333,
+      0.8166666666666667
+    ],
+    "raw_accuracy": 0.6833333333333333,
+    "penalized_fitness": 0.6822083333333333
+  },
+  {
+    "id": "p7",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Think briefly, then check your work.",
+    "hash": "08a088c92c95fb8c70697c74e5bbfcc8de15908b",
+    "accuracy": 0.6166666666666667,
+    "fitness": 0.6158616666666668,
+    "length": 161,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.622,
+      "std": 0.05912189466459749,
+      "ci_low": 0.5,
+      "ci_high": 0.7254166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.104014+00:00",
+    "bootstrap_mean": 0.622,
+    "bootstrap_std": 0.05912189466459749,
+    "confidence_interval": [
+      0.5,
+      0.7254166666666665
+    ],
+    "raw_accuracy": 0.6166666666666667,
+    "penalized_fitness": 0.6158616666666668
+  },
+  {
+    "id": "p10",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "d2f3336c4171e0e90822fea11713e5f4f5f1e7d9",
+    "accuracy": 0.6,
+    "fitness": 0.599125,
+    "length": 175,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6088333333333332,
+      "std": 0.06251621562931133,
+      "ci_low": 0.48333333333333334,
+      "ci_high": 0.7333333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.106329+00:00",
+    "bootstrap_mean": 0.6088333333333332,
+    "bootstrap_std": 0.06251621562931133,
+    "confidence_interval": [
+      0.48333333333333334,
+      0.7333333333333333
+    ],
+    "raw_accuracy": 0.6,
+    "penalized_fitness": 0.599125
+  },
+  {
+    "id": "p23",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "a39a362371380e619c93dafdc08a822ef49a7a3c",
+    "accuracy": 0.5833333333333334,
+    "fitness": 0.5824283333333333,
+    "length": 181,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.583,
+      "std": 0.06347494357935102,
+      "ci_low": 0.44916666666666677,
+      "ci_high": 0.6920833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:36.116422+00:00",
+    "bootstrap_mean": 0.583,
+    "bootstrap_std": 0.06347494357935102,
+    "confidence_interval": [
+      0.44916666666666677,
+      0.6920833333333332
+    ],
+    "raw_accuracy": 0.5833333333333334,
+    "penalized_fitness": 0.5824283333333333
+  }
+]

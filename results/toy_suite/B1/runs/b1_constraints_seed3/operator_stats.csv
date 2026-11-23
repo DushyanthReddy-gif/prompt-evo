@@ -1,0 +1,2 @@
+operator,attempts,evaluated,n_wins,win_rate,success_rate,accept_rate,mean_score_delta,median_score_delta,mean_accuracy_delta,ci_low,ci_high,win_rate_ci_low,win_rate_ci_high,avg_examples_fixed,avg_examples_broken,optimizer_calls,worker_calls
+constraints,84,18,7,0.3888888888888889,0.21428571428571427,0.11904761904761904,-0.012514389213775198,-0.00023250000000002435,-0.012459389213775188,-0.036050758974983776,0.012138278752436608,0.20304991926931162,0.6138133141934384,1.0,0.6666666666666666,115,753

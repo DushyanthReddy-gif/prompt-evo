@@ -1,0 +1,23 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p40,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.
+Read the input closely.
+Respond accurately.",7d4c8d9113ee08a94301ce4d34c62fdf16998f4a,0.6166666666666667,0.6156816666666667,197,3,['p31'],instruction_wording,"{'mean': 0.6188333333333333, 'std': 0.06546282604436601, 'ci_low': 0.49916666666666676, 'ci_high': 0.7333333333333333, 'n_samples': 100}",2026-11-09T10:57:30.147922+00:00,0.6188333333333333,0.06546282604436601,0.6166666666666667,0.6156816666666667
+p31,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.
+Read the input closely.",4ba082f928bb0be400dc73a15636cd3f79e70890,0.6,0.599115,177,2,['p4'],instruction_wording,"{'mean': 0.5993333333333334, 'std': 0.05978449888992664, 'ci_low': 0.47458333333333336, 'ci_high': 0.7087499999999999, 'n_samples': 100}",2026-11-09T10:57:30.142244+00:00,0.5993333333333334,0.05978449888992664,0.6,0.599115
+p4,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.",4a9d9a12fc2797a351ecf257d9a47ff6a578f2fb,0.5666666666666667,0.5659016666666666,153,0,['p0'],instruction_wording,"{'mean': 0.5669999999999998, 'std': 0.06360741685713084, 'ci_low': 0.45, 'ci_high': 0.6833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.129474+00:00,0.5669999999999998,0.06360741685713084,0.5666666666666667,0.5659016666666666
+p0,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.",031afb7c82c1205602beb6a547d41e20027e8361,0.55,0.54944,112,0,[],seed,"{'mean': 0.5531666666666666, 'std': 0.06880799257988257, 'ci_low': 0.4079166666666667, 'ci_high': 0.6666666666666666, 'n_samples': 100}",2026-11-09T10:57:30.125417+00:00,0.5531666666666666,0.06880799257988257,0.55,0.54944
+p28,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Classify the sentiment of the review as positive or negative. Be precise.",183cc8a0badc9f662948b8e816f9f9ffeffd0a70,0.55,0.5489550000000001,209,1,['p4'],instruction_wording,"{'mean': 0.5413333333333333, 'std': 0.07333945490213511, 'ci_low': 0.39125000000000004, 'ci_high': 0.6587499999999998, 'n_samples': 100}",2026-11-09T10:57:30.140319+00:00,0.5413333333333333,0.07333945490213511,0.55,0.5489550000000001
+p2,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+Be precise.",87404f51d4149e896e530c086a4db5c70dcc2269,0.5333333333333333,0.5327133333333334,124,0,['p0'],instruction_wording,"{'mean': 0.5203333333333333, 'std': 0.06433550527552605, 'ci_low': 0.4079166666666667, 'ci_high': 0.6333333333333333, 'n_samples': 100}",2026-11-09T10:57:30.127465+00:00,0.5203333333333333,0.06433550527552605,0.5333333333333333,0.5327133333333334

@@ -1,0 +1,19 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p5,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Finish with a line 'Answer: <answer>'.",e4da8b6c25e6427cfc49b2e15ceff30e3086d476,0.6333333333333333,0.6324983333333333,167,0,['p0'],output_format,"{'mean': 0.6293333333333334, 'std': 0.06738335309146916, 'ci_low': 0.5079166666666667, 'ci_high': 0.7666666666666667, 'n_samples': 100}",2026-11-09T10:57:30.657555+00:00,0.6293333333333334,0.06738335309146916,0.6333333333333333,0.6324983333333333
+p1,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",a39a362371380e619c93dafdc08a822ef49a7a3c,0.5833333333333334,0.5824283333333333,181,0,['p0'],output_format,"{'mean': 0.5843333333333333, 'std': 0.058785882849938444, 'ci_low': 0.4666666666666667, 'ci_high': 0.7, 'n_samples': 100}",2026-11-09T10:57:30.653880+00:00,0.5843333333333333,0.058785882849938444,0.5833333333333334,0.5824283333333333
+p3,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Give a concise answer.",2e145f0ee69c2ef5d9a4a0ad4be522519ab6ff43,0.55,0.5492450000000001,151,0,['p0'],output_format,"{'mean': 0.5431666666666666, 'std': 0.06241020485492472, 'ci_low': 0.42458333333333337, 'ci_high': 0.65, 'n_samples': 100}",2026-11-09T10:57:30.655619+00:00,0.5431666666666666,0.06241020485492472,0.55,0.5492450000000001
+p0,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.",031afb7c82c1205602beb6a547d41e20027e8361,0.55,0.54944,112,0,[],seed,"{'mean': 0.5531666666666666, 'std': 0.06880799257988257, 'ci_low': 0.4079166666666667, 'ci_high': 0.6666666666666666, 'n_samples': 100}",2026-11-09T10:57:30.652274+00:00,0.5531666666666666,0.06880799257988257,0.55,0.54944

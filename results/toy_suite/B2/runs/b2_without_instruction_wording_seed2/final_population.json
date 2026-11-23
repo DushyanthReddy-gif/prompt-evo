@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p27",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The meal was not terrible.\nOutput: positive",
+    "hash": "90515f9229c833ec84bcfc82a06a7082ea4ae2d4",
+    "accuracy": 0.7666666666666667,
+    "fitness": 0.7645866666666667,
+    "length": 416,
+    "generation": 3,
+    "parent_ids": [
+      "p20"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7768333333333333,
+      "std": 0.05987711883741035,
+      "ci_low": 0.6666666666666666,
+      "ci_high": 0.8841666666666664,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.011462+00:00",
+    "bootstrap_mean": 0.7768333333333333,
+    "bootstrap_std": 0.05987711883741035,
+    "confidence_interval": [
+      0.6666666666666666,
+      0.8841666666666664
+    ],
+    "raw_accuracy": 0.7666666666666667,
+    "penalized_fitness": 0.7645866666666667
+  },
+  {
+    "id": "p20",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The meal was not terrible.\nOutput: positive",
+    "hash": "20e6264dd23fa32c7aeaf267607cad13471b168c",
+    "accuracy": 0.75,
+    "fitness": 0.74821,
+    "length": 358,
+    "generation": 2,
+    "parent_ids": [
+      "p12"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7538333333333334,
+      "std": 0.05312115834132508,
+      "ci_low": 0.65,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.004507+00:00",
+    "bootstrap_mean": 0.7538333333333334,
+    "bootstrap_std": 0.05312115834132508,
+    "confidence_interval": [
+      0.65,
+      0.85
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74821
+  },
+  {
+    "id": "p23",
+    "text": "Output one label.\nClassify the sentiment of the review as positive or negative.\nUse the text of the review only.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The meal was not terrible.\nOutput: positive",
+    "hash": "ff1244b717b28815443617d7d01c9c6ef057e7fd",
+    "accuracy": 0.75,
+    "fitness": 0.74821,
+    "length": 358,
+    "generation": 3,
+    "parent_ids": [
+      "p20"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.7496666666666667,
+      "std": 0.05333859401664315,
+      "ci_low": 0.6333333333333333,
+      "ci_high": 0.8420833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.007342+00:00",
+    "bootstrap_mean": 0.7496666666666667,
+    "bootstrap_std": 0.05333859401664315,
+    "confidence_interval": [
+      0.6333333333333333,
+      0.8420833333333332
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74821
+  },
+  {
+    "id": "p12",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The meal was not terrible.\nOutput: positive",
+    "hash": "0ab5828bf4e0aa1732aa78ed08b01362b156df05",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7152216666666666,
+    "length": 289,
+    "generation": 1,
+    "parent_ids": [
+      "p6"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.7115000000000002,
+      "std": 0.05467458060479078,
+      "ci_low": 0.6166666666666667,
+      "ci_high": 0.8087499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.997857+00:00",
+    "bootstrap_mean": 0.7115000000000002,
+    "bootstrap_std": 0.05467458060479078,
+    "confidence_interval": [
+      0.6166666666666667,
+      0.8087499999999999
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7152216666666666
+  },
+  {
+    "id": "p13",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The hotel was excellent.\nOutput: positive",
+    "hash": "f533a956c8d7a260637ed0966042a5c034195b9f",
+    "accuracy": 0.7,
+    "fitness": 0.698525,
+    "length": 295,
+    "generation": 1,
+    "parent_ids": [
+      "p11"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6933333333333332,
+      "std": 0.05585776388969087,
+      "ci_low": 0.59125,
+      "ci_high": 0.8087499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.999568+00:00",
+    "bootstrap_mean": 0.6933333333333332,
+    "bootstrap_std": 0.05585776388969087,
+    "confidence_interval": [
+      0.59125,
+      0.8087499999999999
+    ],
+    "raw_accuracy": 0.7,
+    "penalized_fitness": 0.698525
+  },
+  {
+    "id": "p11",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "b78871e7ab1e2062849e6e55156d78693b5103d6",
+    "accuracy": 0.6833333333333333,
+    "fitness": 0.6821483333333334,
+    "length": 237,
+    "generation": 1,
+    "parent_ids": [
+      "p5"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.6783333333333332,
+      "std": 0.06541330225751828,
+      "ci_low": 0.55,
+      "ci_high": 0.8,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.996192+00:00",
+    "bootstrap_mean": 0.6783333333333332,
+    "bootstrap_std": 0.06541330225751828,
+    "confidence_interval": [
+      0.55,
+      0.8
+    ],
+    "raw_accuracy": 0.6833333333333333,
+    "penalized_fitness": 0.6821483333333334
+  }
+]

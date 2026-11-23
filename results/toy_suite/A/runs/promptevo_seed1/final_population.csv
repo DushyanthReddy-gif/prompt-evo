@@ -1,0 +1,67 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p25,"Classify the sentiment of the review as positive or negative.
+Output one label.
+Use the text of the review only.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- If uncertain, choose the most likely answer.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The game was awful.
+Output: negative",1cbfabd5694a66f1f863f03a5c7bc2fcdfa5efec,0.8333333333333334,0.8311933333333333,428,3,['p21'],few_shot,"{'mean': 0.831, 'std': 0.048142838350055256, 'ci_low': 0.7245833333333334, 'ci_high': 0.9254166666666666, 'n_samples': 100}",2026-11-09T10:57:28.054561+00:00,0.831,0.048142838350055256,0.8333333333333334,0.8311933333333333
+p21,"Classify the sentiment of the review as positive or negative.
+Output one label.
+Use the text of the review only.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- If uncertain, choose the most likely answer.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",b6eb0f41e83e4043e15e6b4d345cbfd3975f5f16,0.8,0.7981750000000001,365,2,['p19'],instruction_ordering,"{'mean': 0.8008333333333334, 'std': 0.05027282469045182, 'ci_low': 0.7, 'ci_high': 0.8920833333333332, 'n_samples': 100}",2026-11-09T10:57:28.050268+00:00,0.8008333333333334,0.05027282469045182,0.8,0.7981750000000001
+p22,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- If uncertain, choose the most likely answer.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",82ed9536f0cadee9eb9a9bc9a71719ff0128d3e0,0.8,0.7982750000000001,345,2,['p19'],reasoning,"{'mean': 0.7991666666666667, 'std': 0.05496529871519602, 'ci_low': 0.7, 'ci_high': 0.9, 'n_samples': 100}",2026-11-09T10:57:28.051855+00:00,0.7991666666666667,0.05496529871519602,0.8,0.7982750000000001
+p19,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- If uncertain, choose the most likely answer.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",0080cc0d547652caa6066b7794340e48c03546a6,0.7833333333333333,0.7815083333333334,365,2,['p15'],constraints,"{'mean': 0.7861666666666666, 'std': 0.05626092611180937, 'ci_low': 0.6745833333333333, 'ci_high': 0.8920833333333332, 'n_samples': 100}",2026-11-09T10:57:28.047862+00:00,0.7861666666666666,0.05626092611180937,0.7833333333333333,0.7815083333333334
+p15,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",8b77883ffa951d7d04c4650fe18f7cc057c991f9,0.7833333333333333,0.7817433333333333,318,1,['p11'],output_format,"{'mean': 0.7814999999999998, 'std': 0.05704542659887261, 'ci_low': 0.6833333333333333, 'ci_high': 0.8920833333333332, 'n_samples': 100}",2026-11-09T10:57:28.045368+00:00,0.7814999999999998,0.05704542659887261,0.7833333333333333,0.7817433333333333
+p11,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.",1d1851d9693da23f1b899f4ca00334da6233f7b2,0.75,0.748755,249,0,"['p2', 'p4']",crossover,"{'mean': 0.7491666666666665, 'std': 0.05388264047915259, 'ci_low': 0.6666666666666666, 'ci_high': 0.8754166666666665, 'n_samples': 100}",2026-11-09T10:57:28.040614+00:00,0.7491666666666665,0.05388264047915259,0.75,0.748755

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p34",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "2ea6f5e73aa86abcc8eac3cffd0997174bd7db3d",
+    "accuracy": 0.9,
+    "fitness": 0.89797,
+    "length": 406,
+    "generation": 4,
+    "parent_ids": [
+      "p32"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.8956666666666667,
+      "std": 0.04127730535232731,
+      "ci_low": 0.8,
+      "ci_high": 0.95,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.872843+00:00",
+    "bootstrap_mean": 0.8956666666666667,
+    "bootstrap_std": 0.04127730535232731,
+    "confidence_interval": [
+      0.8,
+      0.95
+    ],
+    "raw_accuracy": 0.9,
+    "penalized_fitness": 0.89797
+  },
+  {
+    "id": "p32",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "1cdc51aea77584adc8cf1b2aa12562f673fa724b",
+    "accuracy": 0.8166666666666667,
+    "fitness": 0.8149716666666666,
+    "length": 339,
+    "generation": 4,
+    "parent_ids": [
+      "p22"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.8134999999999999,
+      "std": 0.05095579167107541,
+      "ci_low": 0.7245833333333334,
+      "ci_high": 0.9087499999999998,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.869226+00:00",
+    "bootstrap_mean": 0.8134999999999999,
+    "bootstrap_std": 0.05095579167107541,
+    "confidence_interval": [
+      0.7245833333333334,
+      0.9087499999999998
+    ],
+    "raw_accuracy": 0.8166666666666667,
+    "penalized_fitness": 0.8149716666666666
+  },
+  {
+    "id": "p22",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "a7d755514d129173e0dcdad903e6849e445297f5",
+    "accuracy": 0.75,
+    "fitness": 0.74857,
+    "length": 286,
+    "generation": 2,
+    "parent_ids": [
+      "p19"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7676666666666665,
+      "std": 0.04801444788172833,
+      "ci_low": 0.69125,
+      "ci_high": 0.8674999999999997,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.862930+00:00",
+    "bootstrap_mean": 0.7676666666666665,
+    "bootstrap_std": 0.04801444788172833,
+    "confidence_interval": [
+      0.69125,
+      0.8674999999999997
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74857
+  },
+  {
+    "id": "p33",
+    "text": "Be precise.\nUse the text of the review only.\nOutput one label.\nClassify the sentiment of the review as positive or negative.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "52e6e395f8242033bd68e47cd98f541c8642a718",
+    "accuracy": 0.75,
+    "fitness": 0.74857,
+    "length": 286,
+    "generation": 4,
+    "parent_ids": [
+      "p22"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.7518333333333334,
+      "std": 0.05145988816337205,
+      "ci_low": 0.65,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.871060+00:00",
+    "bootstrap_mean": 0.7518333333333334,
+    "bootstrap_std": 0.05145988816337205,
+    "confidence_interval": [
+      0.65,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74857
+  },
+  {
+    "id": "p25",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "9a40d4286bfcf29b5c7abf712378d1f0ddebb5e8",
+    "accuracy": 0.75,
+    "fitness": 0.74851,
+    "length": 298,
+    "generation": 3,
+    "parent_ids": [
+      "p22"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.7510000000000001,
+      "std": 0.05811382460783272,
+      "ci_low": 0.64125,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.865626+00:00",
+    "bootstrap_mean": 0.7510000000000001,
+    "bootstrap_std": 0.05811382460783272,
+    "confidence_interval": [
+      0.64125,
+      0.85
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74851
+  },
+  {
+    "id": "p19",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Think briefly, then check your work.",
+    "hash": "f2e2c0b024425e5b19adf447abf92c34a4372166",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7155116666666667,
+    "length": 231,
+    "generation": 2,
+    "parent_ids": [
+      "p15"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.72,
+      "std": 0.05545445345984164,
+      "ci_low": 0.6070833333333334,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.860420+00:00",
+    "bootstrap_mean": 0.72,
+    "bootstrap_std": 0.05545445345984164,
+    "confidence_interval": [
+      0.6070833333333334,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7155116666666667
+  }
+]

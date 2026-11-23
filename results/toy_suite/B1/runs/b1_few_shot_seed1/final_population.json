@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p19",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The book was fantastic.\nOutput: positive\n\nInput: Review: The book was not great.\nOutput: negative",
+    "hash": "12f6f793d551601e795d2e27060a59c0e6265ee5",
+    "accuracy": 0.6833333333333333,
+    "fitness": 0.6818683333333333,
+    "length": 293,
+    "generation": 3,
+    "parent_ids": [
+      "p13"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6838333333333334,
+      "std": 0.06256108126374488,
+      "ci_low": 0.5666666666666667,
+      "ci_high": 0.8087499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.554236+00:00",
+    "bootstrap_mean": 0.6838333333333334,
+    "bootstrap_std": 0.06256108126374488,
+    "confidence_interval": [
+      0.5666666666666667,
+      0.8087499999999999
+    ],
+    "raw_accuracy": 0.6833333333333333,
+    "penalized_fitness": 0.6818683333333333
+  },
+  {
+    "id": "p20",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The book was fantastic.\nOutput: positive\n\nInput: Review: The hotel was not excellent.\nOutput: negative\n\nInput: Review: The hotel was not fantastic.\nOutput: negative",
+    "hash": "b1ad7ed6398d698d267d20068cb61b4299d4e052",
+    "accuracy": 0.6833333333333333,
+    "fitness": 0.6815333333333333,
+    "length": 360,
+    "generation": 3,
+    "parent_ids": [
+      "p16"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6886666666666668,
+      "std": 0.0630714059195521,
+      "ci_low": 0.5579166666666667,
+      "ci_high": 0.7920833333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.555855+00:00",
+    "bootstrap_mean": 0.6886666666666668,
+    "bootstrap_std": 0.0630714059195521,
+    "confidence_interval": [
+      0.5579166666666667,
+      0.7920833333333333
+    ],
+    "raw_accuracy": 0.6833333333333333,
+    "penalized_fitness": 0.6815333333333333
+  },
+  {
+    "id": "p16",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The book was fantastic.\nOutput: positive\n\nInput: Review: The hotel was not excellent.\nOutput: negative",
+    "hash": "6070c1e926aa783fa56d1cec391a55da341bf7c8",
+    "accuracy": 0.65,
+    "fitness": 0.64851,
+    "length": 298,
+    "generation": 2,
+    "parent_ids": [
+      "p13"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.655,
+      "std": 0.05853140973807077,
+      "ci_low": 0.5245833333333334,
+      "ci_high": 0.7666666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.551507+00:00",
+    "bootstrap_mean": 0.655,
+    "bootstrap_std": 0.05853140973807077,
+    "confidence_interval": [
+      0.5245833333333334,
+      0.7666666666666667
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.64851
+  },
+  {
+    "id": "p13",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive\n\nInput: Review: The book was fantastic.\nOutput: positive",
+    "hash": "ed9d84186c03eeb25b92eabc923e2f330e9c0323",
+    "accuracy": 0.65,
+    "fitness": 0.6488200000000001,
+    "length": 236,
+    "generation": 2,
+    "parent_ids": [
+      "p4"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6428333333333334,
+      "std": 0.061511771979283966,
+      "ci_low": 0.5079166666666667,
+      "ci_high": 0.7587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.548949+00:00",
+    "bootstrap_mean": 0.6428333333333334,
+    "bootstrap_std": 0.061511771979283966,
+    "confidence_interval": [
+      0.5079166666666667,
+      0.7587499999999999
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.6488200000000001
+  },
+  {
+    "id": "p7",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The book was poor.\nOutput: negative\n\nInput: Review: The hotel was wonderful.\nOutput: positive",
+    "hash": "a34010893c23d5f0efa6bb838d2f9624149e873a",
+    "accuracy": 0.65,
+    "fitness": 0.64884,
+    "length": 232,
+    "generation": 1,
+    "parent_ids": [
+      "p1"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.648,
+      "std": 0.06419142248415063,
+      "ci_low": 0.5166666666666667,
+      "ci_high": 0.7666666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.543158+00:00",
+    "bootstrap_mean": 0.648,
+    "bootstrap_std": 0.06419142248415063,
+    "confidence_interval": [
+      0.5166666666666667,
+      0.7666666666666667
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.64884
+  },
+  {
+    "id": "p4",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "2107914b25a3c760c4a0d2bf96226981ea3c3f84",
+    "accuracy": 0.6,
+    "fitness": 0.599105,
+    "length": 179,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6066666666666667,
+      "std": 0.054381534464233564,
+      "ci_low": 0.49916666666666676,
+      "ci_high": 0.7087499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.538164+00:00",
+    "bootstrap_mean": 0.6066666666666667,
+    "bootstrap_std": 0.054381534464233564,
+    "confidence_interval": [
+      0.49916666666666676,
+      0.7087499999999999
+    ],
+    "raw_accuracy": 0.6,
+    "penalized_fitness": 0.599105
+  }
+]

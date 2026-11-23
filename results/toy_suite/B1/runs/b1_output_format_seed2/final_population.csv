@@ -1,0 +1,14 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p1,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Finish with a line 'Answer: <answer>'.",e4da8b6c25e6427cfc49b2e15ceff30e3086d476,0.6333333333333333,0.6324983333333333,167,0,['p0'],output_format,"{'mean': 0.6275000000000001, 'std': 0.0688764651553837, 'ci_low': 0.5, 'ci_high': 0.7666666666666667, 'n_samples': 100}",2026-11-09T10:57:30.683180+00:00,0.6275000000000001,0.0688764651553837,0.6333333333333333,0.6324983333333333
+p10,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",a39a362371380e619c93dafdc08a822ef49a7a3c,0.5833333333333334,0.5824283333333333,181,0,['p0'],output_format,"{'mean': 0.583, 'std': 0.06347494357935102, 'ci_low': 0.44916666666666677, 'ci_high': 0.6920833333333332, 'n_samples': 100}",2026-11-09T10:57:30.686431+00:00,0.583,0.06347494357935102,0.5833333333333334,0.5824283333333333
+p0,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.",031afb7c82c1205602beb6a547d41e20027e8361,0.55,0.54944,112,0,[],seed,"{'mean': 0.5526666666666668, 'std': 0.0683589916515626, 'ci_low': 0.42458333333333337, 'ci_high': 0.6833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.681642+00:00,0.5526666666666668,0.0683589916515626,0.55,0.54944

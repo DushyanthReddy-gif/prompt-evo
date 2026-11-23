@@ -1,0 +1,58 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p22,"Classify the sentiment of the review as positive or negative. Read the input closely.
+Use the text of the review only.
+Output one label.
+Read the input closely.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Finish with a line 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was poor.
+Output: negative",e96fdcace473209fb6bfda0717a0509b8b1ace92,0.7666666666666667,0.7649466666666667,344,3,['p20'],few_shot,"{'mean': 0.7688333333333333, 'std': 0.055030600608815865, 'ci_low': 0.6579166666666667, 'ci_high': 0.8754166666666665, 'n_samples': 100}",2026-11-09T10:57:31.744548+00:00,0.7688333333333333,0.055030600608815865,0.7666666666666667,0.7649466666666667
+p20,"Classify the sentiment of the review as positive or negative. Read the input closely.
+Use the text of the review only.
+Output one label.
+Read the input closely.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Finish with a line 'Answer: <answer>'.",f307afab2cb56f3ac1e2e053e8cb6c2cd8ee4fd9,0.75,0.74859,282,2,['p19'],instruction_wording,"{'mean': 0.7516666666666667, 'std': 0.06220327994498927, 'ci_low': 0.6333333333333333, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:31.742605+00:00,0.7516666666666667,0.06220327994498927,0.75,0.74859
+p11,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Finish with a line 'Answer: <answer>'.",cf681bedbb299c40ef60c414e8ada7061f95964c,0.7333333333333333,0.7321633333333333,234,1,"['p8', 'p6']",crossover,"{'mean': 0.7423333333333335, 'std': 0.05662704100770622, 'ci_low': 0.6325000000000001, 'ci_high': 0.8587499999999999, 'n_samples': 100}",2026-11-09T10:57:31.733963+00:00,0.7423333333333335,0.05662704100770622,0.7333333333333333,0.7321633333333333
+p28,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Finish with a line 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was fantastic.
+Output: positive",0a8df526397b06110fcc2454d710e86185cc89f8,0.7333333333333333,0.7318283333333333,301,4,['p11'],few_shot,"{'mean': 0.7243333333333334, 'std': 0.056627041007706214, 'ci_low': 0.6166666666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.748538+00:00,0.7243333333333334,0.056627041007706214,0.7333333333333333,0.7318283333333333
+p19,"Classify the sentiment of the review as positive or negative. Read the input closely.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Finish with a line 'Answer: <answer>'.",5ecb1eac95a431330b4b26601c73be79aabe7f9d,0.7333333333333333,0.7320433333333333,258,2,['p11'],instruction_wording,"{'mean': 0.7291666666666669, 'std': 0.059899607369021744, 'ci_low': 0.6, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:31.740913+00:00,0.7291666666666669,0.059899607369021744,0.7333333333333333,0.7320433333333333
+p13,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- If uncertain, choose the most likely answer.",dba54ff2a47cbde69577011b1e6c5e528ad848f2,0.7166666666666667,0.7155366666666667,226,1,['p6'],constraints,"{'mean': 0.7125000000000001, 'std': 0.057069030993534185, 'ci_low': 0.6, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.735881+00:00,0.7125000000000001,0.057069030993534185,0.7166666666666667,0.7155366666666667

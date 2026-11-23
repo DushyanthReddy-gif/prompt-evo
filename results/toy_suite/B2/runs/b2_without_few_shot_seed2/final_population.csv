@@ -1,0 +1,55 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p26,"Output one label.
+Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+
+Constraints:
+- Never leave the answer empty.
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Finish with a line 'Answer: <answer>'.",26fc7e6d97203d4719acf509a5e88412d12b68fb,0.7666666666666667,0.7649866666666667,336,2,['p23'],instruction_ordering,"{'mean': 0.7658333333333333, 'std': 0.05110315045603341, 'ci_low': 0.6666666666666666, 'ci_high': 0.8666666666666667, 'n_samples': 100}",2026-11-09T10:57:31.427310+00:00,0.7658333333333333,0.05110315045603341,0.7666666666666667,0.7649866666666667
+p23,"Classify the sentiment of the review as positive or negative.
+Output one label.
+Use the text of the review only.
+
+Constraints:
+- Never leave the answer empty.
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Finish with a line 'Answer: <answer>'.",ca81be598b0a586bcd207fbcae6bbc4c00d450f0,0.7666666666666667,0.7649866666666667,336,2,['p21'],output_format,"{'mean': 0.769, 'std': 0.05344579892863508, 'ci_low': 0.6666666666666666, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:31.423163+00:00,0.769,0.05344579892863508,0.7666666666666667,0.7649866666666667
+p20,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Never leave the answer empty.
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.",0042c1e7efaf16bd958f8225d76b527491274460,0.7,0.698595,281,1,['p18'],constraints,"{'mean': 0.6961666666666669, 'std': 0.051512205302956714, 'ci_low': 0.6, 'ci_high': 0.7920833333333333, 'n_samples': 100}",2026-11-09T10:57:31.419818+00:00,0.6961666666666669,0.051512205302956714,0.7,0.698595
+p21,"Classify the sentiment of the review as positive or negative.
+Output one label.
+Use the text of the review only.
+
+Constraints:
+- Never leave the answer empty.
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.",b6b07c70da1037c97229d02838db29cb28e47a81,0.7,0.698595,281,1,['p20'],instruction_ordering,"{'mean': 0.7101666666666668, 'std': 0.057681300570165454, 'ci_low': 0.6166666666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.421373+00:00,0.7101666666666668,0.057681300570165454,0.7,0.698595
+p17,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Think briefly, then check your work.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",a28130695173dea87564d59f7039751d1ba32370,0.7,0.69885,230,1,['p7'],reasoning,"{'mean': 0.7140000000000001, 'std': 0.060242681678751346, 'ci_low': 0.6079166666666667, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.416251+00:00,0.7140000000000001,0.060242681678751346,0.7,0.69885
+p13,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",f994b77bce586cfdf5cca81dd31024fb1e551092,0.7,0.698745,251,0,"['p7', 'p1']",crossover,"{'mean': 0.7025, 'std': 0.06156283915628945, 'ci_low': 0.59125, 'ci_high': 0.8254166666666666, 'n_samples': 100}",2026-11-09T10:57:31.412728+00:00,0.7025,0.06156283915628945,0.7,0.698745

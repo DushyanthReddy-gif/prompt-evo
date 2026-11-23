@@ -1,0 +1,85 @@
+child_id,parent_ids,generation,operator,status,before_score,after_score,score_delta,before_accuracy,after_accuracy,accuracy_delta,examples_fixed,examples_broken,examples_unchanged,n_evaluated,full_eval,accepted,prompt_length_before,prompt_length_after,worker_calls,optimizer_calls,change_description,llm_call_ids,timestamp
+p1,['p0'],0,reasoning,evaluated,0.54944,0.6158616666666668,0.06642166666666671,0.55,0.6166666666666667,0.06666666666666665,5,1,54,60,True,True,112,161,60,1,reasoning change,['toy-1388'],2026-11-09T10:57:30.737358+00:00
+p2,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,161,0,1,reasoning change,['toy-1389'],2026-11-09T10:57:30.737535+00:00
+p3,['p0'],0,reasoning,evaluated,0.54944,0.5658566666666667,0.016416666666666635,0.55,0.5666666666666667,0.016666666666666607,1,0,59,60,True,True,112,162,60,1,reasoning change,['toy-1390'],2026-11-09T10:57:30.739013+00:00
+p4,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1391'],2026-11-09T10:57:30.739180+00:00
+p5,['p0'],0,reasoning,evaluated,0.54944,0.59909,0.04964999999999997,0.55,0.6,0.04999999999999993,3,0,57,60,True,True,112,182,60,1,reasoning change,['toy-1392'],2026-11-09T10:57:30.740800+00:00
+p6,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1393'],2026-11-09T10:57:30.741012+00:00
+p7,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,182,0,1,reasoning change,['toy-1394'],2026-11-09T10:57:30.741133+00:00
+p8,['p0'],0,reasoning,racing_stopped,0.5827733333333334,0.5408166666666666,-0.04195666666666675,0.5833333333333334,0.5416666666666666,-0.04166666666666674,1,3,44,48,False,False,112,170,48,1,reasoning change,['toy-1395'],2026-11-09T10:57:30.742045+00:00
+p9,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1396'],2026-11-09T10:57:30.742181+00:00
+p10,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1397'],2026-11-09T10:57:30.742283+00:00
+p11,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,161,0,1,reasoning change,['toy-1398'],2026-11-09T10:57:30.742379+00:00
+p12,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1399'],2026-11-09T10:57:30.742472+00:00
+p13,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1400'],2026-11-09T10:57:30.742563+00:00
+p14,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1401'],2026-11-09T10:57:30.742652+00:00
+p15,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1402'],2026-11-09T10:57:30.742737+00:00
+p16,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,182,0,1,reasoning change,['toy-1403'],2026-11-09T10:57:30.742823+00:00
+p17,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,182,0,1,reasoning change,['toy-1404'],2026-11-09T10:57:30.742909+00:00
+p18,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1405'],2026-11-09T10:57:30.743017+00:00
+p19,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,161,0,1,reasoning change,['toy-1406'],2026-11-09T10:57:30.743105+00:00
+p20,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,162,0,1,reasoning change,['toy-1407'],2026-11-09T10:57:30.743189+00:00
+p21,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1408'],2026-11-09T10:57:30.743271+00:00
+p22,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,reasoning change,['toy-1409'],2026-11-09T10:57:30.743352+00:00
+p23,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,182,0,1,reasoning change,['toy-1410'],2026-11-09T10:57:30.743435+00:00
+p24,['p0'],0,reasoning,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,161,0,1,reasoning change,['toy-1411'],2026-11-09T10:57:30.743517+00:00
+p25,['p5'],1,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,1,reasoning change,['toy-1412'],2026-11-09T10:57:30.743623+00:00
+p26,['p1'],1,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1413'],2026-11-09T10:57:30.743714+00:00
+p27,['p1'],1,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,2,reasoning change,"['toy-1414', 'toy-1415']",2026-11-09T10:57:30.743838+00:00
+p28,['p1'],1,reasoning,invalid_mutation,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.743950+00:00
+p29,['p5'],1,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,2,reasoning change,"['toy-1418', 'toy-1419']",2026-11-09T10:57:30.744107+00:00
+p30,['p1'],1,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1420'],2026-11-09T10:57:30.744198+00:00
+p31,['p1'],2,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1421'],2026-11-09T10:57:30.744303+00:00
+p32,['p1'],2,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,2,reasoning change,"['toy-1422', 'toy-1423']",2026-11-09T10:57:30.744470+00:00
+p33,['p5'],2,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1424'],2026-11-09T10:57:30.744561+00:00
+p34,['p1'],2,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1425'],2026-11-09T10:57:30.744646+00:00
+p35,['p1'],2,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1426'],2026-11-09T10:57:30.744731+00:00
+p36,['p5'],2,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,2,reasoning change,"['toy-1427', 'toy-1428']",2026-11-09T10:57:30.744849+00:00
+p37,['p1'],3,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1429'],2026-11-09T10:57:30.744946+00:00
+p38,['p1'],3,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1430'],2026-11-09T10:57:30.745059+00:00
+p39,['p1'],3,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,2,reasoning change,"['toy-1431', 'toy-1432']",2026-11-09T10:57:30.745178+00:00
+p40,['p1'],3,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1433'],2026-11-09T10:57:30.745268+00:00
+p41,['p1'],3,reasoning,invalid_mutation,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.745372+00:00
+p42,['p1'],3,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,2,reasoning change,"['toy-1436', 'toy-1437']",2026-11-09T10:57:30.745493+00:00
+p43,['p5'],4,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,1,reasoning change,['toy-1438'],2026-11-09T10:57:30.745594+00:00
+p44,['p5'],4,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,162,0,1,reasoning change,['toy-1439'],2026-11-09T10:57:30.745680+00:00
+p45,['p1'],4,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1440'],2026-11-09T10:57:30.745773+00:00
+p46,['p5'],4,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1441'],2026-11-09T10:57:30.745863+00:00
+p47,['p1'],4,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,2,reasoning change,"['toy-1442', 'toy-1443']",2026-11-09T10:57:30.746067+00:00
+p48,['p5'],4,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1444'],2026-11-09T10:57:30.746165+00:00
+p49,['p1'],5,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1445'],2026-11-09T10:57:30.746266+00:00
+p50,['p5'],5,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1446'],2026-11-09T10:57:30.746353+00:00
+p51,['p1'],5,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1447'],2026-11-09T10:57:30.746438+00:00
+p52,['p1'],5,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1448'],2026-11-09T10:57:30.746522+00:00
+p53,['p1'],5,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1449'],2026-11-09T10:57:30.746610+00:00
+p54,['p1'],5,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1450'],2026-11-09T10:57:30.746694+00:00
+p55,['p5'],6,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,162,0,1,reasoning change,['toy-1451'],2026-11-09T10:57:30.746793+00:00
+p56,['p5'],6,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,1,reasoning change,['toy-1452'],2026-11-09T10:57:30.746877+00:00
+p57,['p1'],6,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1453'],2026-11-09T10:57:30.746961+00:00
+p58,['p5'],6,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1454'],2026-11-09T10:57:30.747079+00:00
+p59,['p5'],6,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,1,reasoning change,['toy-1455'],2026-11-09T10:57:30.747167+00:00
+p60,['p1'],6,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,2,reasoning change,"['toy-1456', 'toy-1457']",2026-11-09T10:57:30.747287+00:00
+p61,['p1'],7,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1458'],2026-11-09T10:57:30.747389+00:00
+p62,['p5'],7,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1459'],2026-11-09T10:57:30.747474+00:00
+p63,['p1'],7,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1460'],2026-11-09T10:57:30.747560+00:00
+p64,['p1'],7,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1461'],2026-11-09T10:57:30.747644+00:00
+p65,['p1'],7,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1462'],2026-11-09T10:57:30.747731+00:00
+p66,['p1'],7,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1463'],2026-11-09T10:57:30.747817+00:00
+p67,['p1'],8,reasoning,invalid_mutation,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.747934+00:00
+p68,['p1'],8,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1466'],2026-11-09T10:57:30.748060+00:00
+p69,['p1'],8,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1467'],2026-11-09T10:57:30.748151+00:00
+p70,['p1'],8,reasoning,invalid_mutation,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.748256+00:00
+p71,['p1'],8,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,2,reasoning change,"['toy-1470', 'toy-1471']",2026-11-09T10:57:30.748420+00:00
+p72,['p5'],8,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1472'],2026-11-09T10:57:30.748515+00:00
+p73,['p5'],9,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,162,0,1,reasoning change,['toy-1473'],2026-11-09T10:57:30.748615+00:00
+p74,['p5'],9,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1474'],2026-11-09T10:57:30.748703+00:00
+p75,['p1'],9,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1475'],2026-11-09T10:57:30.748788+00:00
+p76,['p1'],9,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1476'],2026-11-09T10:57:30.748872+00:00
+p77,['p5'],9,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,161,0,1,reasoning change,['toy-1477'],2026-11-09T10:57:30.748958+00:00
+p78,['p1'],9,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,2,reasoning change,"['toy-1478', 'toy-1479']",2026-11-09T10:57:30.749104+00:00
+p79,['p1'],10,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,170,0,1,reasoning change,['toy-1480'],2026-11-09T10:57:30.749204+00:00
+p80,['p5'],10,reasoning,duplicate,0.59909,,,0.6,,,0,0,0,0,False,False,182,170,0,1,reasoning change,['toy-1481'],2026-11-09T10:57:30.749288+00:00
+p81,['p1'],10,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1482'],2026-11-09T10:57:30.749370+00:00
+p82,['p1'],10,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1483'],2026-11-09T10:57:30.749455+00:00
+p83,['p1'],10,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,182,0,1,reasoning change,['toy-1484'],2026-11-09T10:57:30.749541+00:00
+p84,['p1'],10,reasoning,duplicate,0.6158616666666668,,,0.6166666666666667,,,0,0,0,0,False,False,161,162,0,1,reasoning change,['toy-1485'],2026-11-09T10:57:30.749628+00:00

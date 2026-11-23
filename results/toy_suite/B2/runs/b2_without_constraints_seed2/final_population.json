@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p18",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "3949a3601fc6ab55e868364fcf94f8f4be1dc5ee",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7155116666666667,
+    "length": 231,
+    "generation": 0,
+    "parent_ids": [
+      "p15",
+      "p1"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.7190000000000001,
+      "std": 0.05826812131724026,
+      "ci_low": 0.6079166666666667,
+      "ci_high": 0.8254166666666666,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.276288+00:00",
+    "bootstrap_mean": 0.7190000000000001,
+    "bootstrap_std": 0.05826812131724026,
+    "confidence_interval": [
+      0.6079166666666667,
+      0.8254166666666666
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7155116666666667
+  },
+  {
+    "id": "p37",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Think briefly, then check your work.\n\nExamples:\nInput: Review: The book was superb.\nOutput: positive",
+    "hash": "7a954100d6d16a9c5b256d1a03a1a6accc07896f",
+    "accuracy": 0.7,
+    "fitness": 0.6988749999999999,
+    "length": 225,
+    "generation": 3,
+    "parent_ids": [
+      "p19"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.7020000000000001,
+      "std": 0.055316658069090356,
+      "ci_low": 0.59125,
+      "ci_high": 0.7920833333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.296553+00:00",
+    "bootstrap_mean": 0.7020000000000001,
+    "bootstrap_std": 0.055316658069090356,
+    "confidence_interval": [
+      0.59125,
+      0.7920833333333333
+    ],
+    "raw_accuracy": 0.7,
+    "penalized_fitness": 0.6988749999999999
+  },
+  {
+    "id": "p46",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nRead the input closely.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The hotel was not excellent.\nOutput: negative",
+    "hash": "df50caaeda349d7e8f0bc621acea226141c1ab85",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6652816666666667,
+    "length": 277,
+    "generation": 4,
+    "parent_ids": [
+      "p40"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.6691666666666667,
+      "std": 0.05804401557531787,
+      "ci_low": 0.55,
+      "ci_high": 0.7754166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.303963+00:00",
+    "bootstrap_mean": 0.6691666666666667,
+    "bootstrap_std": 0.05804401557531787,
+    "confidence_interval": [
+      0.55,
+      0.7754166666666665
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6652816666666667
+  },
+  {
+    "id": "p40",
+    "text": "Output one label.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The hotel was not excellent.\nOutput: negative",
+    "hash": "bc8fa7ca5a77fb4595a95a2447b9e13d89a062c2",
+    "accuracy": 0.65,
+    "fitness": 0.6487350000000001,
+    "length": 253,
+    "generation": 3,
+    "parent_ids": [
+      "p34"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.6460000000000001,
+      "std": 0.06173328824601476,
+      "ci_low": 0.5333333333333333,
+      "ci_high": 0.7587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.299150+00:00",
+    "bootstrap_mean": 0.6460000000000001,
+    "bootstrap_std": 0.06173328824601476,
+    "confidence_interval": [
+      0.5333333333333333,
+      0.7587499999999999
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.6487350000000001
+  },
+  {
+    "id": "p34",
+    "text": "Output one label.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "1fa8223d88341e49c765c6d9120d775bf74539d9",
+    "accuracy": 0.6333333333333333,
+    "fitness": 0.6324283333333333,
+    "length": 181,
+    "generation": 2,
+    "parent_ids": [
+      "p15"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.6309999999999999,
+      "std": 0.06034971037285548,
+      "ci_low": 0.5079166666666667,
+      "ci_high": 0.7333333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.293375+00:00",
+    "bootstrap_mean": 0.6309999999999999,
+    "bootstrap_std": 0.06034971037285548,
+    "confidence_interval": [
+      0.5079166666666667,
+      0.7333333333333333
+    ],
+    "raw_accuracy": 0.6333333333333333,
+    "penalized_fitness": 0.6324283333333333
+  },
+  {
+    "id": "p19",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Think briefly, then check your work.",
+    "hash": "08a088c92c95fb8c70697c74e5bbfcc8de15908b",
+    "accuracy": 0.6166666666666667,
+    "fitness": 0.6158616666666668,
+    "length": 161,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.622,
+      "std": 0.05912189466459749,
+      "ci_low": 0.5,
+      "ci_high": 0.7254166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.278504+00:00",
+    "bootstrap_mean": 0.622,
+    "bootstrap_std": 0.05912189466459749,
+    "confidence_interval": [
+      0.5,
+      0.7254166666666665
+    ],
+    "raw_accuracy": 0.6166666666666667,
+    "penalized_fitness": 0.6158616666666668
+  }
+]

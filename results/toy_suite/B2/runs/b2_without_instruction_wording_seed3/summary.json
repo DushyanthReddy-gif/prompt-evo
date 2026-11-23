@@ -1,0 +1,323 @@
+{
+  "best_prompt": "Output one label.\nClassify the sentiment of the review as positive or negative.\nUse the text of the review only.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'.\n\nExamples:\nInput: Review: The book was great.\nOutput: positive\n\nInput: Review: The hotel was superb.\nOutput: positive",
+  "best_id": "p26",
+  "best_dev_accuracy": 0.7333333333333333,
+  "best_dev_fitness": 0.7316583333333333,
+  "best_bootstrap": {
+    "mean": 0.7213333333333333,
+    "std": 0.050921915973133405,
+    "ci_low": 0.6079166666666667,
+    "ci_high": 0.8254166666666666,
+    "n_samples": 100
+  },
+  "seed_dev_accuracy": 0.55,
+  "seed_prompt": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.",
+  "test_accuracy": 0.6666666666666666,
+  "budget": {
+    "worker_calls": 1000,
+    "optimizer_calls": 39,
+    "total_calls": 1039,
+    "worker_remaining": 0,
+    "worker_tokens": [
+      55754,
+      3000
+    ],
+    "optimizer_tokens": [
+      0,
+      0
+    ],
+    "estimated_cost": 0.0
+  },
+  "selector_state": {
+    "type": "fixed",
+    "weights": {
+      "instruction_ordering": 1.0,
+      "constraints": 1.0,
+      "few_shot": 1.0,
+      "output_format": 1.0,
+      "reasoning": 1.0
+    }
+  },
+  "history": [
+    {
+      "worker_calls": 60,
+      "optimizer_calls": 0,
+      "best_accuracy": 0.55,
+      "best_fitness": 0.54944,
+      "best_id": "p0",
+      "population_mean_accuracy": 0.55,
+      "population_size": 1
+    },
+    {
+      "worker_calls": 120,
+      "optimizer_calls": 1,
+      "best_accuracy": 0.55,
+      "best_fitness": 0.54944,
+      "best_id": "p0",
+      "population_mean_accuracy": 0.55,
+      "population_size": 2
+    },
+    {
+      "worker_calls": 120,
+      "optimizer_calls": 2,
+      "best_accuracy": 0.55,
+      "best_fitness": 0.54944,
+      "best_id": "p0",
+      "population_mean_accuracy": 0.55,
+      "population_size": 2
+    },
+    {
+      "worker_calls": 180,
+      "optimizer_calls": 3,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.5777777777777778,
+      "population_size": 3
+    },
+    {
+      "worker_calls": 240,
+      "optimizer_calls": 4,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.575,
+      "population_size": 4
+    },
+    {
+      "worker_calls": 240,
+      "optimizer_calls": 5,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.575,
+      "population_size": 4
+    },
+    {
+      "worker_calls": 300,
+      "optimizer_calls": 6,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 320,
+      "optimizer_calls": 7,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 320,
+      "optimizer_calls": 9,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 370,
+      "optimizer_calls": 10,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 370,
+      "optimizer_calls": 12,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 370,
+      "optimizer_calls": 14,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.58,
+      "population_size": 5
+    },
+    {
+      "worker_calls": 430,
+      "optimizer_calls": 15,
+      "best_accuracy": 0.6333333333333333,
+      "best_fitness": 0.6324983333333333,
+      "best_id": "p3",
+      "population_mean_accuracy": 0.5777777777777778,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 490,
+      "optimizer_calls": 16,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6055555555555555,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 550,
+      "optimizer_calls": 17,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6222222222222222,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 592,
+      "optimizer_calls": 18,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6222222222222222,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 652,
+      "optimizer_calls": 19,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6472222222222223,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 652,
+      "optimizer_calls": 21,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6472222222222223,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 712,
+      "optimizer_calls": 22,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6722222222222222,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 712,
+      "optimizer_calls": 24,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6722222222222222,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 712,
+      "optimizer_calls": 25,
+      "best_accuracy": 0.7166666666666667,
+      "best_fitness": 0.7155116666666667,
+      "best_id": "p13",
+      "population_mean_accuracy": 0.6722222222222222,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 772,
+      "optimizer_calls": 26,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7319333333333333,
+      "best_id": "p21",
+      "population_mean_accuracy": 0.6944444444444445,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 772,
+      "optimizer_calls": 28,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7319333333333333,
+      "best_id": "p21",
+      "population_mean_accuracy": 0.6944444444444445,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 815,
+      "optimizer_calls": 30,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7319333333333333,
+      "best_id": "p21",
+      "population_mean_accuracy": 0.6944444444444445,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 875,
+      "optimizer_calls": 31,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p24",
+      "population_mean_accuracy": 0.7111111111111111,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 918,
+      "optimizer_calls": 32,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p24",
+      "population_mean_accuracy": 0.7111111111111111,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 978,
+      "optimizer_calls": 33,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p26",
+      "population_mean_accuracy": 0.725,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 997,
+      "optimizer_calls": 34,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p26",
+      "population_mean_accuracy": 0.725,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 997,
+      "optimizer_calls": 36,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p26",
+      "population_mean_accuracy": 0.725,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 997,
+      "optimizer_calls": 38,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p26",
+      "population_mean_accuracy": 0.725,
+      "population_size": 6
+    },
+    {
+      "worker_calls": 1000,
+      "optimizer_calls": 39,
+      "best_accuracy": 0.7333333333333333,
+      "best_fitness": 0.7316583333333333,
+      "best_id": "p26",
+      "population_mean_accuracy": 0.725,
+      "population_size": 6
+    }
+  ],
+  "generated_at": "2026-11-09T10:57:31.066961+00:00"
+}

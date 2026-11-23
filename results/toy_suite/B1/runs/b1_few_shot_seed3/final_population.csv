@@ -1,0 +1,73 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p9,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive
+
+Input: Review: The meal was great.
+Output: positive
+
+Input: Review: The service was dreadful.
+Output: negative",eb78d5249700cf1c4abb486b46eb5d50a39b2636,0.7333333333333333,0.7318883333333333,289,1,['p7'],few_shot,"{'mean': 0.7358333333333333, 'std': 0.05362164286567429, 'ci_low': 0.6333333333333333, 'ci_high': 0.8254166666666666, 'n_samples': 100}",2026-11-09T10:57:30.623923+00:00,0.7358333333333333,0.05362164286567429,0.7333333333333333,0.7318883333333333
+p8,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive
+
+Input: Review: The meal was great.
+Output: positive
+
+Input: Review: The meal was dreadful.
+Output: negative",2cba137d5676e0a4d5b365bda3509a7cc6a4f2fc,0.7,0.6985699999999999,286,1,['p7'],few_shot,"{'mean': 0.6880000000000002, 'std': 0.06240953048172607, 'ci_low': 0.5666666666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:30.622369+00:00,0.6880000000000002,0.06240953048172607,0.7,0.6985699999999999
+p10,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive
+
+Input: Review: The meal was great.
+Output: positive
+
+Input: Review: The meal was disappointing.
+Output: negative",c49ac4ea61e5bc07366b7edc6b04ce6c2a2009a5,0.6833333333333333,0.6818783333333334,291,1,['p7'],few_shot,"{'mean': 0.6798333333333335, 'std': 0.057505916350091744, 'ci_low': 0.5658333333333334, 'ci_high': 0.8, 'n_samples': 100}",2026-11-09T10:57:30.625668+00:00,0.6798333333333335,0.057505916350091744,0.6833333333333333,0.6818783333333334
+p14,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive
+
+Input: Review: The meal was great.
+Output: positive
+
+Input: Review: The meal was disappointing.
+Output: negative
+
+Input: Review: The hotel was not excellent.
+Output: negative",8a004912ff09b4e3360770157ea774e464350de3,0.6833333333333333,0.6815683333333333,353,2,['p10'],few_shot,"{'mean': 0.6820000000000002, 'std': 0.057329261463737284, 'ci_low': 0.5833333333333334, 'ci_high': 0.7833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.629088+00:00,0.6820000000000002,0.057329261463737284,0.6833333333333333,0.6815683333333333
+p7,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive
+
+Input: Review: The meal was great.
+Output: positive",dcd58ad7d6409fa18ec467107beda77d0129608b,0.6333333333333333,0.6321833333333333,230,1,['p4'],few_shot,"{'mean': 0.6206666666666666, 'std': 0.062005394211597245, 'ci_low': 0.5079166666666667, 'ci_high': 0.75, 'n_samples': 100}",2026-11-09T10:57:30.620616+00:00,0.6206666666666666,0.062005394211597245,0.6333333333333333,0.6321833333333333
+p4,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Examples:
+Input: Review: The movie was superb.
+Output: positive",ca480fd0bec44e5364c17aa1b08377260e2680e1,0.6166666666666667,0.6157816666666667,177,0,['p0'],few_shot,"{'mean': 0.6275000000000001, 'std': 0.06295986821469428, 'ci_low': 0.47458333333333336, 'ci_high': 0.7341666666666664, 'n_samples': 100}",2026-11-09T10:57:30.616890+00:00,0.6275000000000001,0.06295986821469428,0.6166666666666667,0.6157816666666667

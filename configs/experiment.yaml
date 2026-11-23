@@ -1,0 +1,23 @@
+# Full experiment suite on the offline toy setup (3 tasks x 2 simulated workers x 3 budgets).
+task:
+  name: classification
+  description: "Classify the sentiment of a short review as 'positive' or 'negative'."
+  type: classification
+  dataset: data/classification_dev.jsonl
+  test_dataset: data/classification_test.jsonl
+  seed_prompt: prompts/classification_seed.txt
+  manual_prompt: prompts/classification_manual.txt
+optimizer: {population_size: 6, max_generations: 10, worker_budget: 1000, seed: 42}
+evaluation: {initial_slice_size: 20, promotion_slice_size: 50, bootstrap_samples: 100, length_penalty: 0.01}
+worker: {provider: custom, class_path: "tests.fakes:ToyWorker", model: toy-worker}
+optimizer_llm: {provider: custom, class_path: "tests.fakes:ToyOptimizer", model: toy-optimizer}
+experiment:
+  name: toy_suite
+  seeds: [1, 2, 3]
+  budgets: [500, 1000, 2000]
+  extra_workers:
+    - {provider: custom, class_path: "tests.fakes:ToyWorker", model: toy-worker-strong, params: {name: toy-worker-strong, skill: 0.15}}
+  extra_tasks:
+    - {name: math, description: "Solve the arithmetic problem and give the integer result.", type: math, dataset: data/math_dev.jsonl, test_dataset: data/math_test.jsonl, seed_prompt: prompts/math_seed.txt}
+    - {name: qa, description: "Answer the geography question with the capital city.", type: qa, dataset: data/qa_dev.jsonl, test_dataset: data/qa_test.jsonl, seed_prompt: prompts/qa_seed.txt}
+  transfer_worker: {provider: custom, class_path: "tests.fakes:ToyWorker", model: toy-worker-strong, params: {name: toy-worker-strong, skill: 0.15}}

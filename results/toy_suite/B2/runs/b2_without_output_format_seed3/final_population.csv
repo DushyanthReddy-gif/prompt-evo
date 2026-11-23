@@ -1,0 +1,88 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p22,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive
+
+Input: Review: The game was excellent.
+Output: positive",572398c13031f5ee8ff4486d4f85e65f4ca85fd0,0.7833333333333333,0.7811383333333334,439,2,['p20'],few_shot,"{'mean': 0.7853333333333333, 'std': 0.051752670897313245, 'ci_low': 0.69125, 'ci_high': 0.8833333333333333, 'n_samples': 100}",2026-11-09T10:57:31.667665+00:00,0.7853333333333333,0.051752670897313245,0.7833333333333333,0.7811383333333334
+p16,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Read the input closely.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- Read the input carefully before answering.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",be8aa707da0f6978577644297a346cf5762bb94b,0.75,0.74795,410,1,['p15'],constraints,"{'mean': 0.7434999999999999, 'std': 0.05416932135426882, 'ci_low': 0.6333333333333333, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:31.615347+00:00,0.7434999999999999,0.05416932135426882,0.75,0.74795
+p19,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+- Read the input carefully before answering.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",a87ba6217a4ce82ddd274b2fefb00d909bf0d1ac,0.75,0.748215,357,2,"['p14', 'p16']",crossover,"{'mean': 0.7524999999999998, 'std': 0.05775324848385337, 'ci_low': 0.64125, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:31.617789+00:00,0.7524999999999998,0.05775324848385337,0.75,0.748215
+p20,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",eb1b525f047ad10aab737e514a89b46ddffea1a4,0.7333333333333333,0.7314233333333333,382,2,['p14'],reasoning,"{'mean': 0.7284999999999999, 'std': 0.05789493754630418, 'ci_low': 0.6166666666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.619342+00:00,0.7284999999999999,0.05789493754630418,0.7333333333333333,0.7314233333333333
+p15,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Read the input closely.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",27a8c8897b023e3937afde5fe2c140158b5a078c,0.7166666666666667,0.7148416666666667,365,1,['p14'],instruction_wording,"{'mean': 0.7070000000000001, 'std': 0.05870755385732073, 'ci_low': 0.6, 'ci_high': 0.8174999999999998, 'n_samples': 100}",2026-11-09T10:57:31.612674+00:00,0.7070000000000001,0.05870755385732073,0.7166666666666667,0.7148416666666667
+p14,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",65228e0c3c84aa8d431320e1fc9bc39cc8f455aa,0.7166666666666667,0.7151066666666667,312,1,['p11'],constraints,"{'mean': 0.7183333333333333, 'std': 0.06340948814988066, 'ci_low': 0.6, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:31.611103+00:00,0.7183333333333333,0.06340948814988066,0.7166666666666667,0.7151066666666667

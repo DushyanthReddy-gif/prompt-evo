@@ -1,0 +1,60 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p18,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Classify the sentiment of the review as positive or negative. Be precise.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Reply with JSON {""answer"": ""<answer>""}.
+
+Examples:
+Input: Review: The show was fantastic.
+Output: positive",ddbc43a2a852a9db65a467a7432f445f4a7898df,0.7166666666666667,0.7148766666666667,358,2,['p17'],constraints,"{'mean': 0.7145, 'std': 0.05543699470203733, 'ci_low': 0.6166666666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.705670+00:00,0.7145,0.05543699470203733,0.7166666666666667,0.7148766666666667
+p19,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Classify the sentiment of the review as positive or negative. Be precise.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Output format: Reply with JSON {""answer"": ""<answer>""}.
+
+Examples:
+Input: Review: The show was fantastic.
+Output: positive",3c36c113b7bdc10d5d095472e209016389d3c6b9,0.7166666666666667,0.7146716666666667,399,2,['p18'],instruction_wording,"{'mean': 0.7065, 'std': 0.06126678976916882, 'ci_low': 0.59125, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:31.707237+00:00,0.7065,0.06126678976916882,0.7166666666666667,0.7146716666666667
+p16,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Reply with JSON {""answer"": ""<answer>""}.
+
+Examples:
+Input: Review: The show was fantastic.
+Output: positive
+
+Input: Review: The phone was wonderful.
+Output: positive",c3e2fc74c86adfa65e0b912d4c95cfd553c6a8cf,0.6833333333333333,0.6818683333333333,293,1,['p13'],few_shot,"{'mean': 0.6833333333333336, 'std': 0.05615834595522278, 'ci_low': 0.5745833333333333, 'ci_high': 0.8087499999999999, 'n_samples': 100}",2026-11-09T10:57:31.702505+00:00,0.6833333333333336,0.05615834595522278,0.6833333333333333,0.6818683333333333
+p12,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",b60adaaa0a851a880df4c33d59f64871f17ffa55,0.6333333333333333,0.6322233333333332,222,1,"['p5', 'p8']",crossover,"{'mean': 0.6343333333333334, 'std': 0.06525526153689952, 'ci_low': 0.5079166666666667, 'ci_high': 0.7420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.697859+00:00,0.6343333333333334,0.06525526153689952,0.6333333333333333,0.6322233333333332
+p17,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Classify the sentiment of the review as positive or negative. Be precise.
+
+Output format: Reply with JSON {""answer"": ""<answer>""}.
+
+Examples:
+Input: Review: The show was fantastic.
+Output: positive",33386d95f5a521e14b130e399f9c16a713f3f496,0.6166666666666667,0.6152116666666667,291,2,['p13'],instruction_wording,"{'mean': 0.6081666666666667, 'std': 0.060418248557022, 'ci_low': 0.5, 'ci_high': 0.7166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.704131+00:00,0.6081666666666667,0.060418248557022,0.6166666666666667,0.6152116666666667
+p13,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Output format: Reply with JSON {""answer"": ""<answer>""}.
+
+Examples:
+Input: Review: The show was fantastic.
+Output: positive",8767e33558c01f5a9eacabfb4a2f5d19e41b9226,0.6,0.5988249999999999,235,1,['p4'],output_format,"{'mean': 0.6053333333333333, 'std': 0.06844759273882184, 'ci_low': 0.47458333333333336, 'ci_high': 0.7254166666666665, 'n_samples': 100}",2026-11-09T10:57:31.699488+00:00,0.6053333333333333,0.06844759273882184,0.6,0.5988249999999999

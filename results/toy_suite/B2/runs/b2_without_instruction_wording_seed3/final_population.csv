@@ -1,0 +1,69 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p26,"Output one label.
+Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was great.
+Output: positive
+
+Input: Review: The hotel was superb.
+Output: positive",4812225ad8f6b8464aed5fcead51865ad633fe41,0.7333333333333333,0.7316583333333333,335,3,['p24'],instruction_ordering,"{'mean': 0.7213333333333333, 'std': 0.050921915973133405, 'ci_low': 0.6079166666666667, 'ci_high': 0.8254166666666666, 'n_samples': 100}",2026-11-09T10:57:31.053906+00:00,0.7213333333333333,0.050921915973133405,0.7333333333333333,0.7316583333333333
+p24,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was great.
+Output: positive
+
+Input: Review: The hotel was superb.
+Output: positive",d1bbba3aa1ed6bde3cf64bab3b6788ceba3ff204,0.7333333333333333,0.7316583333333333,335,2,['p21'],few_shot,"{'mean': 0.7325000000000002, 'std': 0.0560770974014721, 'ci_low': 0.6245833333333334, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.050186+00:00,0.7325000000000002,0.0560770974014721,0.7333333333333333,0.7316583333333333
+p21,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was great.
+Output: positive",ac8c4ef9b4c177be4240bedbcc853a350a8f721f,0.7333333333333333,0.7319333333333333,280,2,['p14'],reasoning,"{'mean': 0.735, 'std': 0.05790487187022799, 'ci_low': 0.6166666666666667, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:31.047238+00:00,0.735,0.05790487187022799,0.7333333333333333,0.7319333333333333
+p13,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",3949a3601fc6ab55e868364fcf94f8f4be1dc5ee,0.7166666666666667,0.7155116666666667,231,1,['p12'],output_format,"{'mean': 0.711, 'std': 0.059939176054048, 'ci_low': 0.5833333333333334, 'ci_high': 0.8254166666666666, 'n_samples': 100}",2026-11-09T10:57:31.038919+00:00,0.711,0.059939176054048,0.7166666666666667,0.7155116666666667
+p16,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was superb.
+Output: positive",ac7e8d8a9a75ee9a3c4f8934f9c59a536bb8baf5,0.7166666666666667,0.7151916666666667,295,1,['p13'],few_shot,"{'mean': 0.7238333333333334, 'std': 0.059565156394835304, 'ci_low': 0.6079166666666667, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.043362+00:00,0.7238333333333334,0.059565156394835304,0.7166666666666667,0.7151916666666667
+p18,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The book was superb.
+Output: positive",9ea8f69761c2c0e97e3899ef60d1a5485e082683,0.7166666666666667,0.7150916666666667,315,1,['p16'],reasoning,"{'mean': 0.7216666666666666, 'std': 0.06161409170227454, 'ci_low': 0.59125, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.045139+00:00,0.7216666666666666,0.06161409170227454,0.7166666666666667,0.7150916666666667

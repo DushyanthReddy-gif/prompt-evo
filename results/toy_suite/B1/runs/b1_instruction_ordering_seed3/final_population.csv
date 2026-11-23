@@ -1,0 +1,10 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p9,"Classify the sentiment of the review as positive or negative.
+Output one label.
+Use the text of the review only.",fa8301a9865d868aee323a2e2e9ec8b053166eb9,0.5666666666666667,0.5661066666666666,112,0,['p0'],instruction_ordering,"{'mean': 0.5741666666666667, 'std': 0.059145381954211255, 'ci_low': 0.4579166666666667, 'ci_high': 0.6833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.314950+00:00,0.5741666666666667,0.059145381954211255,0.5666666666666667,0.5661066666666666
+p15,"Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+Output one label.",90b5a36446dcbde61cf9b399a733d01422044b57,0.5666666666666667,0.5661066666666666,112,0,['p0'],instruction_ordering,"{'mean': 0.567, 'std': 0.07039172102120902, 'ci_low': 0.44125000000000003, 'ci_high': 0.6920833333333332, 'n_samples': 100}",2026-11-09T10:57:30.318270+00:00,0.567,0.07039172102120902,0.5666666666666667,0.5661066666666666
+p0,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.",031afb7c82c1205602beb6a547d41e20027e8361,0.55,0.54944,112,0,[],seed,"{'mean': 0.5404999999999999, 'std': 0.0663398978191006, 'ci_low': 0.4, 'ci_high': 0.6666666666666666, 'n_samples': 100}",2026-11-09T10:57:30.311721+00:00,0.5404999999999999,0.0663398978191006,0.55,0.54944

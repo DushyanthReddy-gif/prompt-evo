@@ -1,0 +1,116 @@
+[
+  {
+    "id": "p2",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Think briefly, then check your work.",
+    "hash": "08a088c92c95fb8c70697c74e5bbfcc8de15908b",
+    "accuracy": 0.6166666666666667,
+    "fitness": 0.6158616666666668,
+    "length": 161,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.622,
+      "std": 0.05912189466459749,
+      "ci_low": 0.5,
+      "ci_high": 0.7254166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.766688+00:00",
+    "bootstrap_mean": 0.622,
+    "bootstrap_std": 0.05912189466459749,
+    "confidence_interval": [
+      0.5,
+      0.7254166666666665
+    ],
+    "raw_accuracy": 0.6166666666666667,
+    "penalized_fitness": 0.6158616666666668
+  },
+  {
+    "id": "p1",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Break the problem into steps and double-check the result.",
+    "hash": "a437c2cad5d7a78d52f5e34b187c98efd9a43d80",
+    "accuracy": 0.6,
+    "fitness": 0.59909,
+    "length": 182,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.5981666666666666,
+      "std": 0.0711811129566744,
+      "ci_low": 0.45,
+      "ci_high": 0.7420833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.765174+00:00",
+    "bootstrap_mean": 0.5981666666666666,
+    "bootstrap_std": 0.0711811129566744,
+    "confidence_interval": [
+      0.45,
+      0.7420833333333332
+    ],
+    "raw_accuracy": 0.6,
+    "penalized_fitness": 0.59909
+  },
+  {
+    "id": "p4",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.",
+    "hash": "31c68cecfd6818813b4c34c5dcd65852b983694a",
+    "accuracy": 0.5666666666666667,
+    "fitness": 0.5658566666666667,
+    "length": 162,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.5529999999999999,
+      "std": 0.06936379154863324,
+      "ci_low": 0.4079166666666667,
+      "ci_high": 0.6841666666666664,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.768732+00:00",
+    "bootstrap_mean": 0.5529999999999999,
+    "bootstrap_std": 0.06936379154863324,
+    "confidence_interval": [
+      0.4079166666666667,
+      0.6841666666666664
+    ],
+    "raw_accuracy": 0.5666666666666667,
+    "penalized_fitness": 0.5658566666666667
+  },
+  {
+    "id": "p0",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.",
+    "hash": "031afb7c82c1205602beb6a547d41e20027e8361",
+    "accuracy": 0.55,
+    "fitness": 0.54944,
+    "length": 112,
+    "generation": 0,
+    "parent_ids": [],
+    "operator": "seed",
+    "bootstrap": {
+      "mean": 0.5526666666666668,
+      "std": 0.0683589916515626,
+      "ci_low": 0.42458333333333337,
+      "ci_high": 0.6833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.763599+00:00",
+    "bootstrap_mean": 0.5526666666666668,
+    "bootstrap_std": 0.0683589916515626,
+    "confidence_interval": [
+      0.42458333333333337,
+      0.6833333333333333
+    ],
+    "raw_accuracy": 0.55,
+    "penalized_fitness": 0.54944
+  }
+]

@@ -1,0 +1,85 @@
+child_id,parent_ids,generation,operator,status,before_score,after_score,score_delta,before_accuracy,after_accuracy,accuracy_delta,examples_fixed,examples_broken,examples_unchanged,n_evaluated,full_eval,accepted,prompt_length_before,prompt_length_after,worker_calls,optimizer_calls,change_description,llm_call_ids,timestamp
+p1,['p0'],0,constraints,evaluated,0.54944,0.6657716666666667,0.11633166666666661,0.55,0.6666666666666666,0.11666666666666659,7,0,53,60,True,True,112,179,60,1,adjusted constraints,['toy-800'],2026-11-09T10:57:30.385451+00:00
+p2,['p0'],0,constraints,evaluated,0.54944,0.5824833333333334,0.03304333333333331,0.55,0.5833333333333334,0.033333333333333326,3,1,56,60,True,True,112,170,60,1,adjusted constraints,['toy-801'],2026-11-09T10:57:30.386949+00:00
+p3,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-802'],2026-11-09T10:57:30.387168+00:00
+p4,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-803'],2026-11-09T10:57:30.387282+00:00
+p5,['p0'],0,constraints,racing_stopped,0.37444,0.31171,-0.06273000000000001,0.375,0.3125,-0.0625,0,1,15,16,False,False,112,158,16,1,adjusted constraints,['toy-804'],2026-11-09T10:57:30.387780+00:00
+p6,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,adjusted constraints,['toy-805'],2026-11-09T10:57:30.387927+00:00
+p7,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,158,0,1,adjusted constraints,['toy-806'],2026-11-09T10:57:30.388086+00:00
+p8,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,158,0,1,adjusted constraints,['toy-807'],2026-11-09T10:57:30.388195+00:00
+p9,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,158,0,1,adjusted constraints,['toy-808'],2026-11-09T10:57:30.388297+00:00
+p10,['p0'],0,constraints,racing_stopped,0.37444,0.311635,-0.062805,0.375,0.3125,-0.0625,0,1,15,16,False,False,112,173,16,1,adjusted constraints,['toy-809'],2026-11-09T10:57:30.388718+00:00
+p11,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-810'],2026-11-09T10:57:30.388849+00:00
+p12,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,170,0,1,adjusted constraints,['toy-811'],2026-11-09T10:57:30.388951+00:00
+p13,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,158,0,1,adjusted constraints,['toy-812'],2026-11-09T10:57:30.389083+00:00
+p14,['p0'],0,constraints,evaluated,0.54944,0.549145,-0.0002950000000000452,0.55,0.55,0.0,1,1,58,60,True,True,112,171,60,1,adjusted constraints,['toy-813'],2026-11-09T10:57:30.390499+00:00
+p15,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-814'],2026-11-09T10:57:30.390668+00:00
+p16,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-815'],2026-11-09T10:57:30.390780+00:00
+p17,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,171,0,1,adjusted constraints,['toy-816'],2026-11-09T10:57:30.390884+00:00
+p18,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-817'],2026-11-09T10:57:30.391022+00:00
+p19,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,173,0,1,adjusted constraints,['toy-818'],2026-11-09T10:57:30.391126+00:00
+p20,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,171,0,1,adjusted constraints,['toy-819'],2026-11-09T10:57:30.391221+00:00
+p21,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,173,0,1,adjusted constraints,['toy-820'],2026-11-09T10:57:30.391319+00:00
+p22,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,179,0,1,adjusted constraints,['toy-821'],2026-11-09T10:57:30.391414+00:00
+p23,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,158,0,1,adjusted constraints,['toy-822'],2026-11-09T10:57:30.391507+00:00
+p24,['p0'],0,constraints,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,171,0,1,adjusted constraints,['toy-823'],2026-11-09T10:57:30.391597+00:00
+p25,['p2'],1,constraints,evaluated,0.5824833333333334,0.7155516666666667,0.13306833333333334,0.5833333333333334,0.7166666666666667,0.1333333333333333,8,0,52,60,True,True,170,223,60,1,adjusted constraints,['toy-824'],2026-11-09T10:57:30.393153+00:00
+p26,['p1'],1,constraints,evaluated,0.6657716666666667,0.7155366666666667,0.04976500000000006,0.6666666666666666,0.7166666666666667,0.050000000000000044,4,1,55,60,True,True,179,226,60,1,adjusted constraints,['toy-825'],2026-11-09T10:57:30.395185+00:00
+p27,['p2'],1,constraints,evaluated,0.5824833333333334,0.6322483333333333,0.04976499999999995,0.5833333333333334,0.6333333333333333,0.04999999999999993,3,0,57,60,True,True,170,217,60,1,adjusted constraints,['toy-826'],2026-11-09T10:57:30.396712+00:00
+p28,['p26'],1,constraints,racing_stopped,0.5822033333333334,0.41537666666666667,-0.16682666666666673,0.5833333333333334,0.4166666666666667,-0.16666666666666669,0,2,10,12,False,False,226,258,12,1,adjusted constraints,['toy-827'],2026-11-09T10:57:30.397166+00:00
+p29,['p1'],1,constraints,duplicate,0.6657716666666667,,,0.6666666666666666,,,0,0,0,0,False,False,179,226,0,2,adjusted constraints,"['toy-828', 'toy-829']",2026-11-09T10:57:30.397366+00:00
+p30,['p25'],1,constraints,evaluated,0.7155516666666667,0.74865,0.03309833333333334,0.7166666666666667,0.75,0.033333333333333326,2,0,58,60,True,True,223,270,60,1,adjusted constraints,['toy-830'],2026-11-09T10:57:30.398886+00:00
+p31,['p30'],2,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,226,0,1,adjusted constraints,['toy-831'],2026-11-09T10:57:30.399139+00:00
+p32,['p25'],2,constraints,evaluated,0.7155516666666667,0.74866,0.033108333333333295,0.7166666666666667,0.75,0.033333333333333326,2,0,58,60,True,True,223,268,60,1,adjusted constraints,['toy-832'],2026-11-09T10:57:30.461564+00:00
+p33,['p30'],2,constraints,evaluated,0.74865,0.7817583333333333,0.033108333333333295,0.75,0.7833333333333333,0.033333333333333326,2,0,58,60,True,True,270,315,60,1,adjusted constraints,['toy-833'],2026-11-09T10:57:30.463278+00:00
+p34,['p33'],2,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.463514+00:00
+p35,['p33'],2,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.463664+00:00
+p36,['p33'],2,constraints,racing_stopped,0.748425,0.5815983333333333,-0.16682666666666668,0.75,0.5833333333333334,-0.16666666666666663,0,2,10,12,False,False,315,347,12,2,adjusted constraints,"['toy-838', 'toy-839']",2026-11-09T10:57:30.464128+00:00
+p37,['p33'],3,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,2,adjusted constraints,"['toy-840', 'toy-841']",2026-11-09T10:57:30.464337+00:00
+p38,['p33'],3,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,2,adjusted constraints,"['toy-842', 'toy-843']",2026-11-09T10:57:30.464539+00:00
+p39,['p33'],3,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.464676+00:00
+p40,['p33'],3,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-846'],2026-11-09T10:57:30.464792+00:00
+p41,['p32'],3,constraints,racing_stopped,0.7694933333333334,0.748425,-0.021068333333333356,0.7708333333333334,0.75,-0.02083333333333337,1,2,45,48,False,False,268,315,48,2,adjusted constraints,"['toy-847', 'toy-848']",2026-11-09T10:57:30.465803+00:00
+p42,['p33'],3,constraints,racing_stopped,0.698425,0.498645,-0.19977999999999996,0.7,0.5,-0.19999999999999996,0,2,8,10,False,False,315,271,10,1,adjusted constraints,['toy-849'],2026-11-09T10:57:30.466177+00:00
+p43,['p32'],4,constraints,racing_stopped,0.5371215384615384,0.46041846153846155,-0.07670307692307687,0.5384615384615384,0.46153846153846156,-0.07692307692307687,0,1,12,13,False,False,268,224,13,2,adjusted constraints,"['toy-850', 'toy-851']",2026-11-09T10:57:30.466603+00:00
+p44,['p30'],4,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,226,0,1,adjusted constraints,['toy-852'],2026-11-09T10:57:30.466740+00:00
+p45,['p33'],4,constraints,racing_stopped,0.698425,0.49869,-0.19973499999999994,0.7,0.5,-0.19999999999999996,0,2,8,10,False,False,315,262,10,1,adjusted constraints,['toy-853'],2026-11-09T10:57:30.467079+00:00
+p46,['p32'],4,constraints,racing_stopped,0.7694933333333334,0.7485,-0.02099333333333331,0.7708333333333334,0.75,-0.02083333333333337,1,2,45,48,False,False,268,300,48,2,adjusted constraints,"['toy-854', 'toy-855']",2026-11-09T10:57:30.468049+00:00
+p47,['p33'],4,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-856'],2026-11-09T10:57:30.468201+00:00
+p48,['p33'],4,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.468369+00:00
+p49,['p30'],5,constraints,invalid_mutation,0.74865,,,0.75,,,0,0,0,0,False,False,270,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.468524+00:00
+p50,['p33'],5,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,2,adjusted constraints,"['toy-861', 'toy-862']",2026-11-09T10:57:30.468684+00:00
+p51,['p33'],5,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.468817+00:00
+p52,['p33'],5,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,2,adjusted constraints,"['toy-865', 'toy-866']",2026-11-09T10:57:30.468991+00:00
+p53,['p30'],5,constraints,invalid_mutation,0.74865,,,0.75,,,0,0,0,0,False,False,270,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.469126+00:00
+p54,['p32'],5,constraints,duplicate,0.74866,,,0.75,,,0,0,0,0,False,False,268,300,0,1,adjusted constraints,['toy-869'],2026-11-09T10:57:30.469237+00:00
+p55,['p33'],6,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-870'],2026-11-09T10:57:30.469362+00:00
+p56,['p33'],6,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.469488+00:00
+p57,['p30'],6,constraints,racing_stopped,0.6140346153846155,0.5369515384615384,-0.07708307692307703,0.6153846153846154,0.5384615384615384,-0.07692307692307698,0,1,12,13,False,False,270,302,13,2,adjusted constraints,"['toy-873', 'toy-874']",2026-11-09T10:57:30.469916+00:00
+p58,['p33'],6,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,271,0,1,adjusted constraints,['toy-875'],2026-11-09T10:57:30.470089+00:00
+p59,['p33'],6,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,2,adjusted constraints,"['toy-876', 'toy-877']",2026-11-09T10:57:30.470257+00:00
+p60,['p33'],6,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-878'],2026-11-09T10:57:30.470375+00:00
+p61,['p33'],7,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-879'],2026-11-09T10:57:30.470502+00:00
+p62,['p30'],7,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,302,0,1,adjusted constraints,['toy-880'],2026-11-09T10:57:30.470609+00:00
+p63,['p33'],7,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,1,adjusted constraints,['toy-881'],2026-11-09T10:57:30.470714+00:00
+p64,['p30'],7,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,223,0,1,adjusted constraints,['toy-882'],2026-11-09T10:57:30.470815+00:00
+p65,['p33'],7,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.470943+00:00
+p66,['p30'],7,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,302,0,1,adjusted constraints,['toy-885'],2026-11-09T10:57:30.471081+00:00
+p67,['p30'],8,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,302,0,1,adjusted constraints,['toy-886'],2026-11-09T10:57:30.471202+00:00
+p68,['p25'],8,constraints,invalid_mutation,0.7155516666666667,,,0.7166666666666667,,,0,0,0,0,False,False,223,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.471328+00:00
+p69,['p32'],8,constraints,invalid_mutation,0.74866,,,0.75,,,0,0,0,0,False,False,268,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.471453+00:00
+p70,['p33'],8,constraints,invalid_mutation,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.471578+00:00
+p71,['p32'],8,constraints,racing_stopped,0.59866,0.298925,-0.299735,0.6,0.3,-0.3,0,3,7,10,False,False,268,215,10,1,adjusted constraints,['toy-893'],2026-11-09T10:57:30.471893+00:00
+p72,['p33'],8,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,2,adjusted constraints,"['toy-894', 'toy-895']",2026-11-09T10:57:30.472096+00:00
+p73,['p30'],9,constraints,invalid_mutation,0.74865,,,0.75,,,0,0,0,0,False,False,270,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.472243+00:00
+p74,['p32'],9,constraints,duplicate,0.74866,,,0.75,,,0,0,0,0,False,False,268,315,0,1,adjusted constraints,['toy-898'],2026-11-09T10:57:30.472383+00:00
+p75,['p30'],9,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,217,0,1,adjusted constraints,['toy-899'],2026-11-09T10:57:30.472498+00:00
+p76,['p32'],9,constraints,duplicate,0.74866,,,0.75,,,0,0,0,0,False,False,268,315,0,1,adjusted constraints,['toy-900'],2026-11-09T10:57:30.472608+00:00
+p77,['p32'],9,constraints,duplicate,0.74866,,,0.75,,,0,0,0,0,False,False,268,224,0,2,adjusted constraints,"['toy-901', 'toy-902']",2026-11-09T10:57:30.472751+00:00
+p78,['p32'],9,constraints,duplicate,0.74866,,,0.75,,,0,0,0,0,False,False,268,215,0,1,adjusted constraints,['toy-903'],2026-11-09T10:57:30.472853+00:00
+p79,['p30'],10,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,302,0,1,adjusted constraints,['toy-904'],2026-11-09T10:57:30.472989+00:00
+p80,['p30'],10,constraints,duplicate,0.74865,,,0.75,,,0,0,0,0,False,False,270,302,0,1,adjusted constraints,['toy-905'],2026-11-09T10:57:30.473102+00:00
+p81,['p33'],10,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,2,adjusted constraints,"['toy-906', 'toy-907']",2026-11-09T10:57:30.473251+00:00
+p82,['p33'],10,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,268,0,1,adjusted constraints,['toy-908'],2026-11-09T10:57:30.473357+00:00
+p83,['p33'],10,constraints,duplicate,0.7817583333333333,,,0.7833333333333333,,,0,0,0,0,False,False,315,347,0,1,adjusted constraints,['toy-909'],2026-11-09T10:57:30.473465+00:00
+p84,['p25'],10,constraints,duplicate,0.7155516666666667,,,0.7166666666666667,,,0,0,0,0,False,False,223,268,0,2,adjusted constraints,"['toy-910', 'toy-911']",2026-11-09T10:57:30.473604+00:00

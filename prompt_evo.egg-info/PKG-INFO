@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: prompt-evo
+Version: 0.1.0
+Summary: PromptEvo: black-box evolutionary prompt optimizer with operator-level analysis
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: rich
+Provides-Extra: openai
+Requires-Dist: openai>=1.0; extra == "openai"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

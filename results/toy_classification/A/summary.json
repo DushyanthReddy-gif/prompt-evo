@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "method": "seed",
+      "available": true,
+      "metric": "test_accuracy",
+      "mean": 0.55,
+      "std": 0.0,
+      "ci_low": 0.55,
+      "ci_high": 0.55,
+      "n": 3,
+      "mean_dev_accuracy": 0.55,
+      "mean_worker_calls": 60.0,
+      "mean_optimizer_calls": 0.0,
+      "mean_prompt_length": 112.0
+    },
+    {
+      "method": "manual",
+      "available": true,
+      "metric": "test_accuracy",
+      "mean": 0.6333333333333333,
+      "std": 0.0,
+      "ci_low": 0.6333333333333333,
+      "ci_high": 0.6333333333333333,
+      "n": 3,
+      "mean_dev_accuracy": 0.7166666666666667,
+      "mean_worker_calls": 60.0,
+      "mean_optimizer_calls": 0.0,
+      "mean_prompt_length": 197.0,
+      "improvement_over_seed": 0.08333333333333326
+    },
+    {
+      "method": "genetic",
+      "available": true,
+      "metric": "test_accuracy",
+      "mean": 0.6388888888888888,
+      "std": 0.025458753860865747,
+      "ci_low": 0.5756458383289429,
+      "ci_high": 0.7021319394488348,
+      "n": 3,
+      "mean_dev_accuracy": 0.7000000000000001,
+      "mean_worker_calls": 1000.0,
+      "mean_optimizer_calls": 20.0,
+      "mean_prompt_length": 250.33333333333334,
+      "improvement_over_seed": 0.08888888888888884
+    },
+    {
+      "method": "promptevo",
+      "available": true,
+      "metric": "test_accuracy",
+      "mean": 0.6444444444444444,
+      "std": 0.009622504486493794,
+      "ci_low": 0.6205408181680584,
+      "ci_high": 0.6683480707208304,
+      "n": 3,
+      "mean_dev_accuracy": 0.7333333333333334,
+      "mean_worker_calls": 1000.0,
+      "mean_optimizer_calls": 39.0,
+      "mean_prompt_length": 313.0,
+      "improvement_over_seed": 0.0944444444444444
+    }
+  ],
+  "paired_tests_over_test_examples": {
+    "promptevo_vs_seed": {
+      "mean_diff": 0.09444444444444443,
+      "p_permutation": 0.029897010298970104,
+      "p_wilcoxon": 0.019630657257290667,
+      "cohens_dz": 0.3274118834601252,
+      "n": 60
+    },
+    "promptevo_vs_manual": {
+      "mean_diff": 0.01111111111111111,
+      "p_permutation": 1.0,
+      "p_wilcoxon": 0.31731050786291415,
+      "cohens_dz": 0.12909944487358058,
+      "n": 60
+    },
+    "promptevo_vs_genetic": {
+      "mean_diff": 0.005555555555555556,
+      "p_permutation": 1.0,
+      "p_wilcoxon": 0.4142161782425252,
+      "cohens_dz": 0.07411802958204414,
+      "n": 60
+    },
+    "genetic_vs_seed": {
+      "mean_diff": 0.08888888888888888,
+      "p_permutation": 0.0156984301569843,
+      "p_wilcoxon": 0.0157641152996124,
+      "cohens_dz": 0.33345109816065455,
+      "n": 60
+    }
+  },
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "generated_at": "2026-11-09T10:57:37.191777+00:00"
+}

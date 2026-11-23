@@ -1,0 +1,171 @@
+{
+  "cells": [
+    {
+      "task": "classification",
+      "worker": "toy-worker",
+      "budget": 500,
+      "mean_final_accuracy": 0.6333333333333333,
+      "mean_dev_accuracy": 0.6555555555555556,
+      "mean_seed_dev_accuracy": 0.55,
+      "best_operator": "crossover"
+    },
+    {
+      "task": "classification",
+      "worker": "toy-worker",
+      "budget": 1000,
+      "mean_final_accuracy": 0.7166666666666667,
+      "mean_dev_accuracy": 0.7888888888888889,
+      "mean_seed_dev_accuracy": 0.55,
+      "best_operator": "output_format"
+    },
+    {
+      "task": "classification",
+      "worker": "toy-worker",
+      "budget": 2000,
+      "mean_final_accuracy": 0.8277777777777778,
+      "mean_dev_accuracy": 0.9111111111111111,
+      "mean_seed_dev_accuracy": 0.55,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "classification",
+      "worker": "toy-worker-strong",
+      "budget": 500,
+      "mean_final_accuracy": 0.7055555555555556,
+      "mean_dev_accuracy": 0.7666666666666666,
+      "mean_seed_dev_accuracy": 0.6999999999999998,
+      "best_operator": "few_shot"
+    },
+    {
+      "task": "classification",
+      "worker": "toy-worker-strong",
+      "budget": 1000,
+      "mean_final_accuracy": 0.8444444444444444,
+      "mean_dev_accuracy": 0.9333333333333332,
+      "mean_seed_dev_accuracy": 0.6999999999999998,
+      "best_operator": "reasoning"
+    },
+    {
+      "task": "classification",
+      "worker": "toy-worker-strong",
+      "budget": 2000,
+      "mean_final_accuracy": 0.9222222222222222,
+      "mean_dev_accuracy": 1.0,
+      "mean_seed_dev_accuracy": 0.6999999999999998,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker",
+      "budget": 500,
+      "mean_final_accuracy": 0.6111111111111112,
+      "mean_dev_accuracy": 0.6444444444444444,
+      "mean_seed_dev_accuracy": 0.5333333333333333,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker",
+      "budget": 1000,
+      "mean_final_accuracy": 0.7555555555555555,
+      "mean_dev_accuracy": 0.7444444444444445,
+      "mean_seed_dev_accuracy": 0.5333333333333333,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker",
+      "budget": 2000,
+      "mean_final_accuracy": 0.8944444444444445,
+      "mean_dev_accuracy": 0.9111111111111111,
+      "mean_seed_dev_accuracy": 0.5333333333333333,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker-strong",
+      "budget": 500,
+      "mean_final_accuracy": 0.7722222222222221,
+      "mean_dev_accuracy": 0.7888888888888889,
+      "mean_seed_dev_accuracy": 0.6666666666666666,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker-strong",
+      "budget": 1000,
+      "mean_final_accuracy": 0.8833333333333333,
+      "mean_dev_accuracy": 0.9333333333333332,
+      "mean_seed_dev_accuracy": 0.6666666666666666,
+      "best_operator": "crossover"
+    },
+    {
+      "task": "math",
+      "worker": "toy-worker-strong",
+      "budget": 2000,
+      "mean_final_accuracy": 0.9777777777777779,
+      "mean_dev_accuracy": 1.0,
+      "mean_seed_dev_accuracy": 0.6666666666666666,
+      "best_operator": "crossover"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker",
+      "budget": 500,
+      "mean_final_accuracy": 0.6055555555555555,
+      "mean_dev_accuracy": 0.5611111111111111,
+      "mean_seed_dev_accuracy": 0.48333333333333334,
+      "best_operator": "crossover"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker",
+      "budget": 1000,
+      "mean_final_accuracy": 0.65,
+      "mean_dev_accuracy": 0.6055555555555555,
+      "mean_seed_dev_accuracy": 0.48333333333333334,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker",
+      "budget": 2000,
+      "mean_final_accuracy": 0.8222222222222223,
+      "mean_dev_accuracy": 0.8388888888888889,
+      "mean_seed_dev_accuracy": 0.48333333333333334,
+      "best_operator": "output_format"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker-strong",
+      "budget": 500,
+      "mean_final_accuracy": 0.75,
+      "mean_dev_accuracy": 0.7555555555555555,
+      "mean_seed_dev_accuracy": 0.5666666666666667,
+      "best_operator": "crossover"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker-strong",
+      "budget": 1000,
+      "mean_final_accuracy": 0.9777777777777777,
+      "mean_dev_accuracy": 0.9611111111111111,
+      "mean_seed_dev_accuracy": 0.5666666666666667,
+      "best_operator": "constraints"
+    },
+    {
+      "task": "qa",
+      "worker": "toy-worker-strong",
+      "budget": 2000,
+      "mean_final_accuracy": 0.9833333333333334,
+      "mean_dev_accuracy": 0.9944444444444445,
+      "mean_seed_dev_accuracy": 0.5666666666666667,
+      "best_operator": "few_shot"
+    }
+  ],
+  "best_operator_varies_by": {
+    "task": true,
+    "worker": true,
+    "budget": true
+  }
+}

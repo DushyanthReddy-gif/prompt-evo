@@ -1,0 +1,2 @@
+operator,attempts,evaluated,n_wins,win_rate,success_rate,accept_rate,mean_score_delta,median_score_delta,mean_accuracy_delta,ci_low,ci_high,win_rate_ci_low,win_rate_ci_high,avg_examples_fixed,avg_examples_broken,optimizer_calls,worker_calls
+few_shot,26,26,9,0.34615384615384615,1.0,0.38461538461538464,-0.02066021909958928,-0.048530813953488294,-0.020362142176512367,-0.04063883800278698,0.00027818507790889116,0.19412014972852126,0.5377977099036699,1.1923076923076923,1.0,26,940

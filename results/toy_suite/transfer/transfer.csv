@@ -1,0 +1,4 @@
+seed,worker_A,worker_B,seed_on_A,seed_on_B,evolved_on_A,evolved_on_B,transfer_gain_on_B
+1,toy-worker,toy-worker-strong,0.55,0.6333333333333333,0.65,0.8666666666666667,0.2333333333333334
+2,toy-worker,toy-worker-strong,0.55,0.6333333333333333,0.65,0.8666666666666667,0.2333333333333334
+3,toy-worker,toy-worker-strong,0.55,0.6333333333333333,0.75,0.9,0.2666666666666667

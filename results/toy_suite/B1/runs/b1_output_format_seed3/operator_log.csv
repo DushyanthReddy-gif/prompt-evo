@@ -1,0 +1,85 @@
+child_id,parent_ids,generation,operator,status,before_score,after_score,score_delta,before_accuracy,after_accuracy,accuracy_delta,examples_fixed,examples_broken,examples_unchanged,n_evaluated,full_eval,accepted,prompt_length_before,prompt_length_after,worker_calls,optimizer_calls,change_description,llm_call_ids,timestamp
+p1,['p0'],0,output_format,evaluated,0.54944,0.5492450000000001,-0.00019499999999994522,0.55,0.55,0.0,1,1,58,60,True,True,112,151,60,1,format change,['toy-1295'],2026-11-09T10:57:30.709058+00:00
+p2,['p0'],0,output_format,evaluated,0.54944,0.5824283333333333,0.032988333333333286,0.55,0.5833333333333334,0.033333333333333326,2,0,58,60,True,True,112,181,60,1,format change,['toy-1296'],2026-11-09T10:57:30.710590+00:00
+p3,['p0'],0,output_format,evaluated,0.54944,0.6324983333333333,0.08305833333333323,0.55,0.6333333333333333,0.08333333333333326,5,0,55,60,True,True,112,167,60,1,format change,['toy-1297'],2026-11-09T10:57:30.712267+00:00
+p4,['p0'],0,output_format,racing_stopped,0.56194,0.5199933333333334,-0.04194666666666658,0.5625,0.5208333333333334,-0.04166666666666663,1,3,44,48,False,False,112,168,48,1,format change,['toy-1298'],2026-11-09T10:57:30.713392+00:00
+p5,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,168,0,1,format change,['toy-1299'],2026-11-09T10:57:30.713566+00:00
+p6,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1300'],2026-11-09T10:57:30.713674+00:00
+p7,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,168,0,1,format change,['toy-1301'],2026-11-09T10:57:30.713786+00:00
+p8,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1302'],2026-11-09T10:57:30.713890+00:00
+p9,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1303'],2026-11-09T10:57:30.714007+00:00
+p10,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1304'],2026-11-09T10:57:30.714105+00:00
+p11,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1305'],2026-11-09T10:57:30.714195+00:00
+p12,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1306'],2026-11-09T10:57:30.714287+00:00
+p13,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1307'],2026-11-09T10:57:30.714375+00:00
+p14,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1308'],2026-11-09T10:57:30.714461+00:00
+p15,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1309'],2026-11-09T10:57:30.714547+00:00
+p16,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1310'],2026-11-09T10:57:30.714629+00:00
+p17,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1311'],2026-11-09T10:57:30.714712+00:00
+p18,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1312'],2026-11-09T10:57:30.714794+00:00
+p19,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,167,0,1,format change,['toy-1313'],2026-11-09T10:57:30.714878+00:00
+p20,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1314'],2026-11-09T10:57:30.714962+00:00
+p21,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1315'],2026-11-09T10:57:30.715079+00:00
+p22,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,151,0,1,format change,['toy-1316'],2026-11-09T10:57:30.715160+00:00
+p23,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1317'],2026-11-09T10:57:30.715241+00:00
+p24,['p0'],0,output_format,duplicate,0.54944,,,0.55,,,0,0,0,0,False,False,112,181,0,1,format change,['toy-1318'],2026-11-09T10:57:30.715338+00:00
+p25,['p3'],1,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1319'],2026-11-09T10:57:30.715470+00:00
+p26,['p2'],1,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1320'],2026-11-09T10:57:30.715584+00:00
+p27,['p3'],1,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1321'],2026-11-09T10:57:30.715702+00:00
+p28,['p3'],1,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1322'],2026-11-09T10:57:30.715826+00:00
+p29,['p3'],1,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,2,format change,"['toy-1323', 'toy-1324']",2026-11-09T10:57:30.716002+00:00
+p30,['p3'],1,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1325'],2026-11-09T10:57:30.716104+00:00
+p31,['p3'],2,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,2,format change,"['toy-1326', 'toy-1327']",2026-11-09T10:57:30.716245+00:00
+p32,['p3'],2,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1328'],2026-11-09T10:57:30.716335+00:00
+p33,['p3'],2,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1329'],2026-11-09T10:57:30.716467+00:00
+p34,['p2'],2,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1330'],2026-11-09T10:57:30.716561+00:00
+p35,['p2'],2,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1331'],2026-11-09T10:57:30.716650+00:00
+p36,['p2'],2,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1332'],2026-11-09T10:57:30.716741+00:00
+p37,['p3'],3,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1333'],2026-11-09T10:57:30.716846+00:00
+p38,['p2'],3,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,2,format change,"['toy-1334', 'toy-1335']",2026-11-09T10:57:30.716988+00:00
+p39,['p3'],3,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1336'],2026-11-09T10:57:30.717086+00:00
+p40,['p3'],3,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1337'],2026-11-09T10:57:30.717174+00:00
+p41,['p2'],3,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1338'],2026-11-09T10:57:30.717262+00:00
+p42,['p3'],3,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1339'],2026-11-09T10:57:30.717351+00:00
+p43,['p2'],4,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,167,0,1,format change,['toy-1340'],2026-11-09T10:57:30.717454+00:00
+p44,['p3'],4,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1341'],2026-11-09T10:57:30.717544+00:00
+p45,['p2'],4,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,151,0,1,format change,['toy-1342'],2026-11-09T10:57:30.717631+00:00
+p46,['p3'],4,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1343'],2026-11-09T10:57:30.717722+00:00
+p47,['p3'],4,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,2,format change,"['toy-1344', 'toy-1345']",2026-11-09T10:57:30.717916+00:00
+p48,['p3'],4,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1346'],2026-11-09T10:57:30.718039+00:00
+p49,['p3'],5,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1347'],2026-11-09T10:57:30.718149+00:00
+p50,['p3'],5,output_format,invalid_mutation,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.718259+00:00
+p51,['p3'],5,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1350'],2026-11-09T10:57:30.718353+00:00
+p52,['p3'],5,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1351'],2026-11-09T10:57:30.718443+00:00
+p53,['p2'],5,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,167,0,1,format change,['toy-1352'],2026-11-09T10:57:30.718533+00:00
+p54,['p3'],5,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1353'],2026-11-09T10:57:30.718620+00:00
+p55,['p3'],6,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1354'],2026-11-09T10:57:30.718730+00:00
+p56,['p2'],6,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,151,0,1,format change,['toy-1355'],2026-11-09T10:57:30.718832+00:00
+p57,['p3'],6,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1356'],2026-11-09T10:57:30.718918+00:00
+p58,['p3'],6,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1357'],2026-11-09T10:57:30.719031+00:00
+p59,['p2'],6,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,167,0,1,format change,['toy-1358'],2026-11-09T10:57:30.719122+00:00
+p60,['p3'],6,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,2,format change,"['toy-1359', 'toy-1360']",2026-11-09T10:57:30.719243+00:00
+p61,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1361'],2026-11-09T10:57:30.719345+00:00
+p62,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1362'],2026-11-09T10:57:30.719431+00:00
+p63,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1363'],2026-11-09T10:57:30.719517+00:00
+p64,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1364'],2026-11-09T10:57:30.719602+00:00
+p65,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1365'],2026-11-09T10:57:30.719690+00:00
+p66,['p3'],7,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1366'],2026-11-09T10:57:30.719779+00:00
+p67,['p3'],8,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1367'],2026-11-09T10:57:30.719878+00:00
+p68,['p3'],8,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1368'],2026-11-09T10:57:30.719965+00:00
+p69,['p2'],8,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,168,0,1,format change,['toy-1369'],2026-11-09T10:57:30.720083+00:00
+p70,['p3'],8,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1370'],2026-11-09T10:57:30.720170+00:00
+p71,['p3'],8,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1371'],2026-11-09T10:57:30.720256+00:00
+p72,['p3'],8,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1372'],2026-11-09T10:57:30.720374+00:00
+p73,['p2'],9,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,167,0,1,format change,['toy-1373'],2026-11-09T10:57:30.720483+00:00
+p74,['p3'],9,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1374'],2026-11-09T10:57:30.720571+00:00
+p75,['p3'],9,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1375'],2026-11-09T10:57:30.720658+00:00
+p76,['p2'],9,output_format,duplicate,0.5824283333333333,,,0.5833333333333334,,,0,0,0,0,False,False,181,151,0,1,format change,['toy-1376'],2026-11-09T10:57:30.720745+00:00
+p77,['p3'],9,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,2,format change,"['toy-1377', 'toy-1378']",2026-11-09T10:57:30.720869+00:00
+p78,['p3'],9,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1379'],2026-11-09T10:57:30.720957+00:00
+p79,['p3'],10,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,1,format change,['toy-1380'],2026-11-09T10:57:30.721088+00:00
+p80,['p3'],10,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1381'],2026-11-09T10:57:30.721176+00:00
+p81,['p3'],10,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,151,0,1,format change,['toy-1382'],2026-11-09T10:57:30.721262+00:00
+p82,['p3'],10,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,168,0,2,format change,"['toy-1383', 'toy-1384']",2026-11-09T10:57:30.721382+00:00
+p83,['p3'],10,output_format,invalid_mutation,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,0,0,2,invalid output: mutation did not change the component; invalid output: mutation did not change the component,[],2026-11-09T10:57:30.721489+00:00
+p84,['p3'],10,output_format,duplicate,0.6324983333333333,,,0.6333333333333333,,,0,0,0,0,False,False,167,181,0,1,format change,['toy-1387'],2026-11-09T10:57:30.721580+00:00

@@ -1,0 +1,58 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p16,"Output one label.
+Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.",f4544b1faabd44c90d23107c27689c37b58be72b,0.75,0.74858,284,2,['p13'],constraints,"{'mean': 0.7526666666666667, 'std': 0.05544028445356146, 'ci_low': 0.65, 'ci_high': 0.8333333333333334, 'n_samples': 100}",2026-11-09T10:57:29.448511+00:00,0.7526666666666667,0.05544028445356146,0.75,0.74858
+p18,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive",965514e4044919dff29e0955446bf47dabe6175d,0.7333333333333333,0.7317133333333333,324,2,['p10'],output_format,"{'mean': 0.742, 'std': 0.05491959227963748, 'ci_low': 0.65, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:29.451486+00:00,0.742,0.05491959227963748,0.7333333333333333,0.7317133333333333
+p13,"Output one label.
+Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.",4fa5fdc388f89d49171cbe393b29ebad1cc0a87a,0.7166666666666667,0.7155816666666667,217,2,['p11'],instruction_ordering,"{'mean': 0.7271666666666667, 'std': 0.06143874523772506, 'ci_low': 0.6166666666666667, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:29.443920+00:00,0.7271666666666667,0.06143874523772506,0.7166666666666667,0.7155816666666667
+p10,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Give a concise answer.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive",a294fd5a06a59309521c2412de11adfcbb70af94,0.6666666666666666,0.6651966666666667,294,1,"['p8', 'p3']",crossover,"{'mean': 0.6641666666666669, 'std': 0.05682267097866194, 'ci_low': 0.54125, 'ci_high': 0.7754166666666665, 'n_samples': 100}",2026-11-09T10:57:29.438560+00:00,0.6641666666666669,0.05682267097866194,0.6666666666666666,0.6651966666666667
+p12,"Output one label.
+Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Give a concise answer.
+
+Examples:
+Input: Review: The service was not dreadful.
+Output: positive",967e41d94dd3c552aae89d5702a6a0bfabf2885c,0.6666666666666666,0.6651966666666667,294,1,['p10'],instruction_ordering,"{'mean': 0.661, 'std': 0.06730419077977808, 'ci_low': 0.55, 'ci_high': 0.7833333333333333, 'n_samples': 100}",2026-11-09T10:57:29.442220+00:00,0.661,0.06730419077977808,0.6666666666666666,0.6651966666666667
+p11,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Finish with a line 'Answer: <answer>'.",21fca0b88a3edbebbcbd3747d28d991b8ba6ef5c,0.65,0.648915,217,1,['p5'],reasoning,"{'mean': 0.6568333333333335, 'std': 0.06049250725786984, 'ci_low': 0.5666666666666667, 'ci_high': 0.7841666666666665, 'n_samples': 100}",2026-11-09T10:57:29.440256+00:00,0.6568333333333335,0.06049250725786984,0.65,0.648915

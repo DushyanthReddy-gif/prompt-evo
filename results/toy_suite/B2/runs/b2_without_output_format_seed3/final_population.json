@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p22",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive\n\nInput: Review: The game was excellent.\nOutput: positive",
+    "hash": "572398c13031f5ee8ff4486d4f85e65f4ca85fd0",
+    "accuracy": 0.7833333333333333,
+    "fitness": 0.7811383333333334,
+    "length": 439,
+    "generation": 2,
+    "parent_ids": [
+      "p20"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.7853333333333333,
+      "std": 0.051752670897313245,
+      "ci_low": 0.69125,
+      "ci_high": 0.8833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.667665+00:00",
+    "bootstrap_mean": 0.7853333333333333,
+    "bootstrap_std": 0.051752670897313245,
+    "confidence_interval": [
+      0.69125,
+      0.8833333333333333
+    ],
+    "raw_accuracy": 0.7833333333333333,
+    "penalized_fitness": 0.7811383333333334
+  },
+  {
+    "id": "p16",
+    "text": "Classify the sentiment of the review as positive or negative.\nClassify the sentiment of the review as positive or negative. Read the input closely.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- Read the input carefully before answering.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive",
+    "hash": "be8aa707da0f6978577644297a346cf5762bb94b",
+    "accuracy": 0.75,
+    "fitness": 0.74795,
+    "length": 410,
+    "generation": 1,
+    "parent_ids": [
+      "p15"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7434999999999999,
+      "std": 0.05416932135426882,
+      "ci_low": 0.6333333333333333,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.615347+00:00",
+    "bootstrap_mean": 0.7434999999999999,
+    "bootstrap_std": 0.05416932135426882,
+    "confidence_interval": [
+      0.6333333333333333,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74795
+  },
+  {
+    "id": "p19",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- Read the input carefully before answering.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive",
+    "hash": "a87ba6217a4ce82ddd274b2fefb00d909bf0d1ac",
+    "accuracy": 0.75,
+    "fitness": 0.748215,
+    "length": 357,
+    "generation": 2,
+    "parent_ids": [
+      "p14",
+      "p16"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.7524999999999998,
+      "std": 0.05775324848385337,
+      "ci_low": 0.64125,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.617789+00:00",
+    "bootstrap_mean": 0.7524999999999998,
+    "bootstrap_std": 0.05775324848385337,
+    "confidence_interval": [
+      0.64125,
+      0.85
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.748215
+  },
+  {
+    "id": "p20",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive",
+    "hash": "eb1b525f047ad10aab737e514a89b46ddffea1a4",
+    "accuracy": 0.7333333333333333,
+    "fitness": 0.7314233333333333,
+    "length": 382,
+    "generation": 2,
+    "parent_ids": [
+      "p14"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.7284999999999999,
+      "std": 0.05789493754630418,
+      "ci_low": 0.6166666666666667,
+      "ci_high": 0.8166666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.619342+00:00",
+    "bootstrap_mean": 0.7284999999999999,
+    "bootstrap_std": 0.05789493754630418,
+    "confidence_interval": [
+      0.6166666666666667,
+      0.8166666666666667
+    ],
+    "raw_accuracy": 0.7333333333333333,
+    "penalized_fitness": 0.7314233333333333
+  },
+  {
+    "id": "p15",
+    "text": "Classify the sentiment of the review as positive or negative.\nClassify the sentiment of the review as positive or negative. Read the input closely.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive",
+    "hash": "27a8c8897b023e3937afde5fe2c140158b5a078c",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7148416666666667,
+    "length": 365,
+    "generation": 1,
+    "parent_ids": [
+      "p14"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.7070000000000001,
+      "std": 0.05870755385732073,
+      "ci_low": 0.6,
+      "ci_high": 0.8174999999999998,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.612674+00:00",
+    "bootstrap_mean": 0.7070000000000001,
+    "bootstrap_std": 0.05870755385732073,
+    "confidence_interval": [
+      0.6,
+      0.8174999999999998
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7148416666666667
+  },
+  {
+    "id": "p14",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive\n\nInput: Review: The service was not awful.\nOutput: positive",
+    "hash": "65228e0c3c84aa8d431320e1fc9bc39cc8f455aa",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7151066666666667,
+    "length": 312,
+    "generation": 1,
+    "parent_ids": [
+      "p11"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7183333333333333,
+      "std": 0.06340948814988066,
+      "ci_low": 0.6,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.611103+00:00",
+    "bootstrap_mean": 0.7183333333333333,
+    "bootstrap_std": 0.06340948814988066,
+    "confidence_interval": [
+      0.6,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7151066666666667
+  }
+]

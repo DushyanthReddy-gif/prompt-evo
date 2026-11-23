@@ -1,0 +1,60 @@
+{"id": "c000", "input": "Review: The hotel was disappointing.", "expected_output": "negative"}
+{"id": "c001", "input": "Review: The movie was wonderful.", "expected_output": "positive"}
+{"id": "c002", "input": "Review: The game was awful.", "expected_output": "negative"}
+{"id": "c003", "input": "Review: The hotel was not poor.", "expected_output": "positive"}
+{"id": "c004", "input": "Review: The phone was not wonderful.", "expected_output": "negative"}
+{"id": "c005", "input": "Review: The game was superb.", "expected_output": "positive"}
+{"id": "c006", "input": "Review: The service was horrible.", "expected_output": "negative"}
+{"id": "c007", "input": "Review: The show was poor.", "expected_output": "negative"}
+{"id": "c008", "input": "Review: The book was not disappointing.", "expected_output": "positive"}
+{"id": "c009", "input": "Review: The book was poor.", "expected_output": "negative"}
+{"id": "c010", "input": "Review: The show was fantastic.", "expected_output": "positive"}
+{"id": "c011", "input": "Review: The show was poor.", "expected_output": "negative"}
+{"id": "c012", "input": "Review: The show was great.", "expected_output": "positive"}
+{"id": "c013", "input": "Review: The service was disappointing.", "expected_output": "negative"}
+{"id": "c014", "input": "Review: The service was not awful.", "expected_output": "positive"}
+{"id": "c015", "input": "Review: The phone was awful.", "expected_output": "negative"}
+{"id": "c016", "input": "Review: The movie was dreadful.", "expected_output": "negative"}
+{"id": "c017", "input": "Review: The hotel was great.", "expected_output": "positive"}
+{"id": "c018", "input": "Review: The show was not awful.", "expected_output": "positive"}
+{"id": "c019", "input": "Review: The meal was fantastic.", "expected_output": "positive"}
+{"id": "c020", "input": "Review: The movie was not poor.", "expected_output": "positive"}
+{"id": "c021", "input": "Review: The show was terrible.", "expected_output": "negative"}
+{"id": "c022", "input": "Review: The movie was not superb.", "expected_output": "negative"}
+{"id": "c023", "input": "Review: The meal was poor.", "expected_output": "negative"}
+{"id": "c024", "input": "Review: The book was not fantastic.", "expected_output": "negative"}
+{"id": "c025", "input": "Review: The service was not delightful.", "expected_output": "negative"}
+{"id": "c026", "input": "Review: The show was excellent.", "expected_output": "positive"}
+{"id": "c027", "input": "Review: The hotel was not disappointing.", "expected_output": "positive"}
+{"id": "c028", "input": "Review: The meal was awful.", "expected_output": "negative"}
+{"id": "c029", "input": "Review: The game was not delightful.", "expected_output": "negative"}
+{"id": "c030", "input": "Review: The hotel was excellent.", "expected_output": "positive"}
+{"id": "c031", "input": "Review: The book was not great.", "expected_output": "negative"}
+{"id": "c032", "input": "Review: The game was not disappointing.", "expected_output": "positive"}
+{"id": "c033", "input": "Review: The movie was superb.", "expected_output": "positive"}
+{"id": "c034", "input": "Review: The phone was poor.", "expected_output": "negative"}
+{"id": "c035", "input": "Review: The phone was poor.", "expected_output": "negative"}
+{"id": "c036", "input": "Review: The service was disappointing.", "expected_output": "negative"}
+{"id": "c037", "input": "Review: The hotel was fantastic.", "expected_output": "positive"}
+{"id": "c038", "input": "Review: The hotel was not great.", "expected_output": "negative"}
+{"id": "c039", "input": "Review: The game was superb.", "expected_output": "positive"}
+{"id": "c040", "input": "Review: The movie was not poor.", "expected_output": "positive"}
+{"id": "c041", "input": "Review: The service was not great.", "expected_output": "negative"}
+{"id": "c042", "input": "Review: The show was not horrible.", "expected_output": "positive"}
+{"id": "c043", "input": "Review: The meal was not dreadful.", "expected_output": "positive"}
+{"id": "c044", "input": "Review: The movie was awful.", "expected_output": "negative"}
+{"id": "c045", "input": "Review: The meal was not delightful.", "expected_output": "negative"}
+{"id": "c046", "input": "Review: The game was delightful.", "expected_output": "positive"}
+{"id": "c047", "input": "Review: The meal was delightful.", "expected_output": "positive"}
+{"id": "c048", "input": "Review: The phone was dreadful.", "expected_output": "negative"}
+{"id": "c049", "input": "Review: The game was superb.", "expected_output": "positive"}
+{"id": "c050", "input": "Review: The phone was excellent.", "expected_output": "positive"}
+{"id": "c051", "input": "Review: The game was not terrible.", "expected_output": "positive"}
+{"id": "c052", "input": "Review: The service was poor.", "expected_output": "negative"}
+{"id": "c053", "input": "Review: The show was wonderful.", "expected_output": "positive"}
+{"id": "c054", "input": "Review: The meal was not disappointing.", "expected_output": "positive"}
+{"id": "c055", "input": "Review: The movie was fantastic.", "expected_output": "positive"}
+{"id": "c056", "input": "Review: The show was not terrible.", "expected_output": "positive"}
+{"id": "c057", "input": "Review: The phone was dreadful.", "expected_output": "negative"}
+{"id": "c058", "input": "Review: The book was awful.", "expected_output": "negative"}
+{"id": "c059", "input": "Review: The book was not terrible.", "expected_output": "positive"}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p28",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nExamples:\nInput: Review: The book was poor.\nOutput: negative",
+    "hash": "0662b97f02bbf87f50d38072fb43933457aff5b1",
+    "accuracy": 0.7666666666666667,
+    "fitness": 0.7650516666666667,
+    "length": 323,
+    "generation": 2,
+    "parent_ids": [
+      "p25"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.7618333333333333,
+      "std": 0.04643853570262811,
+      "ci_low": 0.6666666666666666,
+      "ci_high": 0.8420833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.579368+00:00",
+    "bootstrap_mean": 0.7618333333333333,
+    "bootstrap_std": 0.04643853570262811,
+    "confidence_interval": [
+      0.6666666666666666,
+      0.8420833333333332
+    ],
+    "raw_accuracy": 0.7666666666666667,
+    "penalized_fitness": 0.7650516666666667
+  },
+  {
+    "id": "p25",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.",
+    "hash": "0d6ecb3e8ae90087f1413c5c3dcd46e7fed3bb3a",
+    "accuracy": 0.75,
+    "fitness": 0.748695,
+    "length": 261,
+    "generation": 2,
+    "parent_ids": [
+      "p23"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.7516666666666667,
+      "std": 0.053628183286856826,
+      "ci_low": 0.65,
+      "ci_high": 0.8666666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.576587+00:00",
+    "bootstrap_mean": 0.7516666666666667,
+    "bootstrap_std": 0.053628183286856826,
+    "confidence_interval": [
+      0.65,
+      0.8666666666666667
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.748695
+  },
+  {
+    "id": "p23",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.",
+    "hash": "1d1851d9693da23f1b899f4ca00334da6233f7b2",
+    "accuracy": 0.75,
+    "fitness": 0.748755,
+    "length": 249,
+    "generation": 2,
+    "parent_ids": [
+      "p22"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.7454999999999999,
+      "std": 0.056994250207173455,
+      "ci_low": 0.65,
+      "ci_high": 0.8587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.574604+00:00",
+    "bootstrap_mean": 0.7454999999999999,
+    "bootstrap_std": 0.056994250207173455,
+    "confidence_interval": [
+      0.65,
+      0.8587499999999999
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.748755
+  },
+  {
+    "id": "p22",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Verify your answer before responding.",
+    "hash": "596d4778b7cfb83ad7d22b17b4f71fbcbe2e6923",
+    "accuracy": 0.7333333333333333,
+    "fitness": 0.7321883333333333,
+    "length": 229,
+    "generation": 1,
+    "parent_ids": [
+      "p13",
+      "p16"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.7361666666666667,
+      "std": 0.049975021819266274,
+      "ci_low": 0.65,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.573129+00:00",
+    "bootstrap_mean": 0.7361666666666667,
+    "bootstrap_std": 0.049975021819266274,
+    "confidence_interval": [
+      0.65,
+      0.85
+    ],
+    "raw_accuracy": 0.7333333333333333,
+    "penalized_fitness": 0.7321883333333333
+  },
+  {
+    "id": "p18",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n\nReasoning: Break the problem into steps and double-check the result.",
+    "hash": "e1f4d4dd10d5408f252bb302021a3ec630cd4c46",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6654666666666667,
+    "length": 240,
+    "generation": 1,
+    "parent_ids": [
+      "p1"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.669,
+      "std": 0.05739480691517767,
+      "ci_low": 0.5579166666666667,
+      "ci_high": 0.7754166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.570732+00:00",
+    "bootstrap_mean": 0.669,
+    "bootstrap_std": 0.05739480691517767,
+    "confidence_interval": [
+      0.5579166666666667,
+      0.7754166666666665
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6654666666666667
+  },
+  {
+    "id": "p16",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.",
+    "hash": "087b56f60e84d018a5817bd1c472428334eee91b",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6657716666666667,
+    "length": 179,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.6685,
+      "std": 0.06311654372691383,
+      "ci_low": 0.5491666666666667,
+      "ci_high": 0.7833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.569004+00:00",
+    "bootstrap_mean": 0.6685,
+    "bootstrap_std": 0.06311654372691383,
+    "confidence_interval": [
+      0.5491666666666667,
+      0.7833333333333333
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6657716666666667
+  }
+]

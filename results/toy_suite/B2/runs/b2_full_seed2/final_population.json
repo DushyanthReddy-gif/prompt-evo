@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p25",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise. Read the input closely.\nUse the text of the review only.\nOutput one label.\nRespond accurately.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "839636812a052de6863003aaa2dd6a22ec53b502",
+    "accuracy": 0.8833333333333333,
+    "fitness": 0.8812283333333333,
+    "length": 421,
+    "generation": 3,
+    "parent_ids": [
+      "p24"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.8826666666666668,
+      "std": 0.040819330382606704,
+      "ci_low": 0.8079166666666667,
+      "ci_high": 0.9587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.886084+00:00",
+    "bootstrap_mean": 0.8826666666666668,
+    "bootstrap_std": 0.040819330382606704,
+    "confidence_interval": [
+      0.8079166666666667,
+      0.9587499999999999
+    ],
+    "raw_accuracy": 0.8833333333333333,
+    "penalized_fitness": 0.8812283333333333
+  },
+  {
+    "id": "p31",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise.\nUse the text of the review only.\nRespond accurately.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "b2d34a630acdc5e55fcba088d0e3838928645036",
+    "accuracy": 0.8333333333333334,
+    "fitness": 0.8312483333333334,
+    "length": 417,
+    "generation": 4,
+    "parent_ids": [
+      "p23"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.8333333333333333,
+      "std": 0.050084104348760275,
+      "ci_low": 0.7333333333333333,
+      "ci_high": 0.9087499999999998,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.889415+00:00",
+    "bootstrap_mean": 0.8333333333333333,
+    "bootstrap_std": 0.050084104348760275,
+    "confidence_interval": [
+      0.7333333333333333,
+      0.9087499999999998
+    ],
+    "raw_accuracy": 0.8333333333333334,
+    "penalized_fitness": 0.8312483333333334
+  },
+  {
+    "id": "p24",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise.\nUse the text of the review only.\nOutput one label.\nRespond accurately.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "4c0f1d84a233f720b89f17b70bfaa8a782180707",
+    "accuracy": 0.8,
+    "fitness": 0.798015,
+    "length": 397,
+    "generation": 3,
+    "parent_ids": [
+      "p23"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.7908333333333333,
+      "std": 0.05481194254919007,
+      "ci_low": 0.69125,
+      "ci_high": 0.8833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.884486+00:00",
+    "bootstrap_mean": 0.7908333333333333,
+    "bootstrap_std": 0.05481194254919007,
+    "confidence_interval": [
+      0.69125,
+      0.8833333333333333
+    ],
+    "raw_accuracy": 0.8,
+    "penalized_fitness": 0.798015
+  },
+  {
+    "id": "p23",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise.\nUse the text of the review only.\nOutput one label.\nRespond accurately.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "fba9cc19744960ace176f8343323e5c12729b9db",
+    "accuracy": 0.7666666666666667,
+    "fitness": 0.7645816666666667,
+    "length": 417,
+    "generation": 3,
+    "parent_ids": [
+      "p20"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7704999999999999,
+      "std": 0.05458007225460242,
+      "ci_low": 0.6579166666666667,
+      "ci_high": 0.8587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.882801+00:00",
+    "bootstrap_mean": 0.7704999999999999,
+    "bootstrap_std": 0.05458007225460242,
+    "confidence_interval": [
+      0.6579166666666667,
+      0.8587499999999999
+    ],
+    "raw_accuracy": 0.7666666666666667,
+    "penalized_fitness": 0.7645816666666667
+  },
+  {
+    "id": "p20",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise.\nUse the text of the review only.\nOutput one label.\nRespond accurately.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "64962928b5383287e544c7260215b2e9dd73e7e4",
+    "accuracy": 0.75,
+    "fitness": 0.74826,
+    "length": 348,
+    "generation": 2,
+    "parent_ids": [
+      "p19"
+    ],
+    "operator": "instruction_wording",
+    "bootstrap": {
+      "mean": 0.7544999999999998,
+      "std": 0.05306831249668481,
+      "ci_low": 0.6333333333333333,
+      "ci_high": 0.8508333333333331,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.879270+00:00",
+    "bootstrap_mean": 0.7544999999999998,
+    "bootstrap_std": 0.05306831249668481,
+    "confidence_interval": [
+      0.6333333333333333,
+      0.8508333333333331
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74826
+  },
+  {
+    "id": "p22",
+    "text": "Classify the sentiment of the review as positive or negative. Be precise.\nUse the text of the review only.\nOutput one label.\nRespond accurately.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Give a concise answer.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "hash": "4ea042ef8a97d4de32edc2e10889e4d4bbdf4ab2",
+    "accuracy": 0.75,
+    "fitness": 0.748065,
+    "length": 387,
+    "generation": 2,
+    "parent_ids": [
+      "p20"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7573333333333333,
+      "std": 0.05852278039290192,
+      "ci_low": 0.65,
+      "ci_high": 0.8754166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.881152+00:00",
+    "bootstrap_mean": 0.7573333333333333,
+    "bootstrap_std": 0.05852278039290192,
+    "confidence_interval": [
+      0.65,
+      0.8754166666666665
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.748065
+  }
+]

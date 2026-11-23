@@ -1,0 +1,14 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p26,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.
+Read the input closely.",4ba082f928bb0be400dc73a15636cd3f79e70890,0.6,0.599115,177,1,['p19'],instruction_wording,"{'mean': 0.6054999999999999, 'std': 0.06177577026023869, 'ci_low': 0.5, 'ci_high': 0.7166666666666667, 'n_samples': 100}",2026-11-09T10:57:30.224784+00:00,0.6054999999999999,0.06177577026023869,0.6,0.599115
+p19,"Classify the sentiment of the review as positive or negative.
+Classify the sentiment of the review as positive or negative. Be precise.
+Output one label.",4a9d9a12fc2797a351ecf257d9a47ff6a578f2fb,0.5666666666666667,0.5659016666666666,153,0,['p0'],instruction_wording,"{'mean': 0.5711666666666666, 'std': 0.0551935173245707, 'ci_low': 0.47458333333333336, 'ci_high': 0.6666666666666666, 'n_samples': 100}",2026-11-09T10:57:30.221630+00:00,0.5711666666666666,0.0551935173245707,0.5666666666666667,0.5659016666666666
+p6,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Output one label.",1b010508863d06ea69a128cf18ea4a4d43d663f6,0.5666666666666667,0.5660466666666667,124,0,['p0'],instruction_wording,"{'mean': 0.5609999999999999, 'std': 0.0679679398906145, 'ci_low': 0.4166666666666667, 'ci_high': 0.6920833333333332, 'n_samples': 100}",2026-11-09T10:57:30.217320+00:00,0.5609999999999999,0.0679679398906145,0.5666666666666667,0.5660466666666667
+p0,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.",031afb7c82c1205602beb6a547d41e20027e8361,0.55,0.54944,112,0,[],seed,"{'mean': 0.5404999999999999, 'std': 0.0663398978191006, 'ci_low': 0.4, 'ci_high': 0.6666666666666666, 'n_samples': 100}",2026-11-09T10:57:30.212763+00:00,0.5404999999999999,0.0663398978191006,0.55,0.54944

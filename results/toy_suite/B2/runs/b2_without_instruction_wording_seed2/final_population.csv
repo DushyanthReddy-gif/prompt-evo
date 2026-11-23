@@ -1,0 +1,81 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p27,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive
+
+Input: Review: The meal was not terrible.
+Output: positive",90515f9229c833ec84bcfc82a06a7082ea4ae2d4,0.7666666666666667,0.7645866666666667,416,3,['p20'],constraints,"{'mean': 0.7768333333333333, 'std': 0.05987711883741035, 'ci_low': 0.6666666666666666, 'ci_high': 0.8841666666666664, 'n_samples': 100}",2026-11-09T10:57:31.011462+00:00,0.7768333333333333,0.05987711883741035,0.7666666666666667,0.7645866666666667
+p20,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive
+
+Input: Review: The meal was not terrible.
+Output: positive",20e6264dd23fa32c7aeaf267607cad13471b168c,0.75,0.74821,358,2,['p12'],output_format,"{'mean': 0.7538333333333334, 'std': 0.05312115834132508, 'ci_low': 0.65, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:31.004507+00:00,0.7538333333333334,0.05312115834132508,0.75,0.74821
+p23,"Output one label.
+Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive
+
+Input: Review: The meal was not terrible.
+Output: positive",ff1244b717b28815443617d7d01c9c6ef057e7fd,0.75,0.74821,358,3,['p20'],instruction_ordering,"{'mean': 0.7496666666666667, 'std': 0.05333859401664315, 'ci_low': 0.6333333333333333, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.007342+00:00,0.7496666666666667,0.05333859401664315,0.75,0.74821
+p12,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Verify your answer before responding.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive
+
+Input: Review: The meal was not terrible.
+Output: positive",0ab5828bf4e0aa1732aa78ed08b01362b156df05,0.7166666666666667,0.7152216666666666,289,1,['p6'],few_shot,"{'mean': 0.7115000000000002, 'std': 0.05467458060479078, 'ci_low': 0.6166666666666667, 'ci_high': 0.8087499999999999, 'n_samples': 100}",2026-11-09T10:57:30.997857+00:00,0.7115000000000002,0.05467458060479078,0.7166666666666667,0.7152216666666666
+p13,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive
+
+Input: Review: The hotel was excellent.
+Output: positive",f533a956c8d7a260637ed0966042a5c034195b9f,0.7,0.698525,295,1,['p11'],few_shot,"{'mean': 0.6933333333333332, 'std': 0.05585776388969087, 'ci_low': 0.59125, 'ci_high': 0.8087499999999999, 'n_samples': 100}",2026-11-09T10:57:30.999568+00:00,0.6933333333333332,0.05585776388969087,0.7,0.698525
+p11,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",b78871e7ab1e2062849e6e55156d78693b5103d6,0.6833333333333333,0.6821483333333334,237,1,['p5'],constraints,"{'mean': 0.6783333333333332, 'std': 0.06541330225751828, 'ci_low': 0.55, 'ci_high': 0.8, 'n_samples': 100}",2026-11-09T10:57:30.996192+00:00,0.6783333333333332,0.06541330225751828,0.6833333333333333,0.6821483333333334

@@ -1,0 +1,53 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p30,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- If uncertain, choose the most likely answer.
+- Read the input carefully before answering.
+
+Reasoning: Think briefly, then check your work.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",981369b40bb7c491313263d83614e0bbd0c71afd,0.75,0.74832,336,3,['p29'],constraints,"{'mean': 0.7535000000000001, 'std': 0.050491134446435174, 'ci_low': 0.6666666666666666, 'ci_high': 0.8420833333333332, 'n_samples': 100}",2026-11-09T10:57:31.482634+00:00,0.7535000000000001,0.050491134446435174,0.75,0.74832
+p29,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- If uncertain, choose the most likely answer.
+
+Reasoning: Think briefly, then check your work.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.",122eb8022794bb43d577df761c7cf0235867e1bb,0.7166666666666667,0.7152116666666667,291,3,['p21'],output_format,"{'mean': 0.7128333333333334, 'std': 0.06010909460946756, 'ci_low': 0.6079166666666667, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.480425+00:00,0.7128333333333334,0.06010909460946756,0.7166666666666667,0.7152116666666667
+p24,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- If uncertain, choose the most likely answer.
+- Do not add explanations after the answer.
+
+Reasoning: Think briefly, then check your work.",b06e845947ca9427877e577857345d58c4400c5a,0.7,0.6986699999999999,266,2,['p21'],constraints,"{'mean': 0.7075000000000001, 'std': 0.061744877148606596, 'ci_low': 0.5825, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.476431+00:00,0.7075000000000001,0.061744877148606596,0.7,0.6986699999999999
+p23,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- If uncertain, choose the most likely answer.
+- Read the input carefully before answering.
+
+Reasoning: Think briefly, then check your work.",1d238cac405ae3cceec63a873556e7fd48bcade6,0.6833333333333333,0.6819983333333334,267,2,['p21'],constraints,"{'mean': 0.6886666666666668, 'std': 0.052644968466378984, 'ci_low': 0.5833333333333334, 'ci_high': 0.7833333333333333, 'n_samples': 100}",2026-11-09T10:57:31.474211+00:00,0.6886666666666668,0.052644968466378984,0.6833333333333333,0.6819983333333334
+p21,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Constraints:
+- If uncertain, choose the most likely answer.
+
+Reasoning: Think briefly, then check your work.",2a93eeadd3160f1c384a90659c26c681547933c6,0.6666666666666666,0.6655566666666666,222,1,['p16'],constraints,"{'mean': 0.6708333333333336, 'std': 0.053726194059979665, 'ci_low': 0.5666666666666667, 'ci_high': 0.7587499999999999, 'n_samples': 100}",2026-11-09T10:57:31.471146+00:00,0.6708333333333336,0.053726194059979665,0.6666666666666666,0.6655566666666666
+p16,"Classify the sentiment of the review as positive or negative.
+Use the text of the review only.
+Output one label.
+
+Reasoning: Think briefly, then check your work.",08a088c92c95fb8c70697c74e5bbfcc8de15908b,0.6166666666666667,0.6158616666666668,161,0,['p0'],reasoning,"{'mean': 0.6063333333333333, 'std': 0.06320028555533665, 'ci_low': 0.49125, 'ci_high': 0.7166666666666667, 'n_samples': 100}",2026-11-09T10:57:31.465225+00:00,0.6063333333333333,0.06320028555533665,0.6166666666666667,0.6158616666666668

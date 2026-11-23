@@ -1,0 +1,75 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p15,"Use the text of the review only.
+Classify the sentiment of the review as positive or negative. Read the input closely.
+Classify the sentiment of the review as positive or negative.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive",59e1af6bf073527dd781922d35eced21a2286b3f,0.7333333333333333,0.7315483333333332,357,2,['p12'],instruction_wording,"{'mean': 0.7338333333333334, 'std': 0.05378256719636207, 'ci_low': 0.6245833333333334, 'ci_high': 0.8166666666666667, 'n_samples': 100}",2026-11-09T10:57:30.924880+00:00,0.7338333333333334,0.05378256719636207,0.7333333333333333,0.7315483333333332
+p17,"Use the text of the review only.
+Output one label.
+Classify the sentiment of the review as positive or negative.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive
+
+Input: Review: The show was terrible.
+Output: negative",df4f951eb62f2ecfc65115ce22b034c75f510c81,0.7333333333333333,0.7316083333333333,345,2,['p12'],few_shot,"{'mean': 0.735, 'std': 0.060045811168080436, 'ci_low': 0.6079166666666667, 'ci_high': 0.85, 'n_samples': 100}",2026-11-09T10:57:30.927493+00:00,0.735,0.060045811168080436,0.7333333333333333,0.7316083333333333
+p12,"Use the text of the review only.
+Output one label.
+Classify the sentiment of the review as positive or negative.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive",eefb96e3f1e48bec5863081af45a8b6dcf4c653a,0.7,0.6985549999999999,289,1,['p11'],instruction_ordering,"{'mean': 0.7043333333333334, 'std': 0.05523239342949585, 'ci_low': 0.5833333333333334, 'ci_high': 0.8, 'n_samples': 100}",2026-11-09T10:57:30.922184+00:00,0.7043333333333334,0.05523239342949585,0.7,0.6985549999999999
+p11,"Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Reasoning: Verify your answer before responding.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive",a128f1d314ff90355d9bf33c865dce4ba2adb449,0.6833333333333333,0.6818883333333333,289,1,['p7'],reasoning,"{'mean': 0.6783333333333335, 'std': 0.05838742081211421, 'ci_low': 0.5666666666666667, 'ci_high': 0.7833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.920613+00:00,0.6783333333333335,0.05838742081211421,0.6833333333333333,0.6818883333333333
+p9,"Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive
+
+Input: Review: The service was not awful.
+Output: positive",320a54efb6b516d990cbd0711ed2508909cb376d,0.6833333333333333,0.6818383333333333,299,1,['p7'],few_shot,"{'mean': 0.6826666666666666, 'std': 0.059360603576906056, 'ci_low': 0.5833333333333334, 'ci_high': 0.7920833333333333, 'n_samples': 100}",2026-11-09T10:57:30.918737+00:00,0.6826666666666666,0.059360603576906056,0.6833333333333333,0.6818383333333333
+p7,"Use the text of the review only.
+Classify the sentiment of the review as positive or negative.
+Output one label.
+
+Constraints:
+- Do not add explanations after the answer.
+
+Examples:
+Input: Review: The phone was delightful.
+Output: positive",f0bd12e9cb9711e2ca133c80f16035a6a4a26bc7,0.65,0.6488050000000001,239,1,['p4'],instruction_ordering,"{'mean': 0.6466666666666666, 'std': 0.06039525627828988, 'ci_low': 0.5245833333333334, 'ci_high': 0.7587499999999999, 'n_samples': 100}",2026-11-09T10:57:30.915421+00:00,0.6466666666666666,0.06039525627828988,0.65,0.6488050000000001

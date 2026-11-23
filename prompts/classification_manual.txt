@@ -1,0 +1,4 @@
+Classify the sentiment of the review as exactly one of: positive, negative.
+Constraints:
+- Answer with only the final answer, no extra words.
+Output format: Finish with a line "Answer: <answer>".

@@ -1,0 +1,22 @@
+{
+  "seed": {
+    "1": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.",
+    "2": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.",
+    "3": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label."
+  },
+  "manual": {
+    "1": "Classify the sentiment of the review as exactly one of: positive, negative.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nOutput format: Finish with a line \"Answer: <answer>\".",
+    "2": "Classify the sentiment of the review as exactly one of: positive, negative.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nOutput format: Finish with a line \"Answer: <answer>\".",
+    "3": "Classify the sentiment of the review as exactly one of: positive, negative.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nOutput format: Finish with a line \"Answer: <answer>\"."
+  },
+  "genetic": {
+    "1": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nThink briefly, then check your work.\nReturn the answer on one line as 'Answer: <answer>'.",
+    "2": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nThink briefly, then check your work.\nReturn the answer on one line as 'Answer: <answer>'.",
+    "3": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nReturn the answer on one line as 'Answer: <answer>'.\nRead the input closely.\nDo not add explanations after the answer.\nFinish with a line 'Answer: <answer>'."
+  },
+  "promptevo": {
+    "1": "Classify the sentiment of the review as positive or negative.\nOutput one label.\nUse the text of the review only.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "2": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\nBe precise.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Finish with a line 'Answer: <answer>'.\n\nExamples:\nInput: Review: The meal was wonderful.\nOutput: positive",
+    "3": "Output one label.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'."
+  }
+}

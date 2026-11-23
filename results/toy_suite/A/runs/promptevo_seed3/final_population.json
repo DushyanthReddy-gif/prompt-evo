@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p16",
+    "text": "Output one label.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "f4544b1faabd44c90d23107c27689c37b58be72b",
+    "accuracy": 0.75,
+    "fitness": 0.74858,
+    "length": 284,
+    "generation": 2,
+    "parent_ids": [
+      "p13"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7526666666666667,
+      "std": 0.05544028445356146,
+      "ci_low": 0.65,
+      "ci_high": 0.8333333333333334,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.448511+00:00",
+    "bootstrap_mean": 0.7526666666666667,
+    "bootstrap_std": 0.05544028445356146,
+    "confidence_interval": [
+      0.65,
+      0.8333333333333334
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74858
+  },
+  {
+    "id": "p18",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive",
+    "hash": "965514e4044919dff29e0955446bf47dabe6175d",
+    "accuracy": 0.7333333333333333,
+    "fitness": 0.7317133333333333,
+    "length": 324,
+    "generation": 2,
+    "parent_ids": [
+      "p10"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.742,
+      "std": 0.05491959227963748,
+      "ci_low": 0.65,
+      "ci_high": 0.8420833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.451486+00:00",
+    "bootstrap_mean": 0.742,
+    "bootstrap_std": 0.05491959227963748,
+    "confidence_interval": [
+      0.65,
+      0.8420833333333332
+    ],
+    "raw_accuracy": 0.7333333333333333,
+    "penalized_fitness": 0.7317133333333333
+  },
+  {
+    "id": "p13",
+    "text": "Output one label.\nUse the text of the review only.\nClassify the sentiment of the review as positive or negative.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "4fa5fdc388f89d49171cbe393b29ebad1cc0a87a",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7155816666666667,
+    "length": 217,
+    "generation": 2,
+    "parent_ids": [
+      "p11"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.7271666666666667,
+      "std": 0.06143874523772506,
+      "ci_low": 0.6166666666666667,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.443920+00:00",
+    "bootstrap_mean": 0.7271666666666667,
+    "bootstrap_std": 0.06143874523772506,
+    "confidence_interval": [
+      0.6166666666666667,
+      0.85
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7155816666666667
+  },
+  {
+    "id": "p10",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Give a concise answer.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive",
+    "hash": "a294fd5a06a59309521c2412de11adfcbb70af94",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6651966666666667,
+    "length": 294,
+    "generation": 1,
+    "parent_ids": [
+      "p8",
+      "p3"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.6641666666666669,
+      "std": 0.05682267097866194,
+      "ci_low": 0.54125,
+      "ci_high": 0.7754166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.438560+00:00",
+    "bootstrap_mean": 0.6641666666666669,
+    "bootstrap_std": 0.05682267097866194,
+    "confidence_interval": [
+      0.54125,
+      0.7754166666666665
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6651966666666667
+  },
+  {
+    "id": "p12",
+    "text": "Output one label.\nClassify the sentiment of the review as positive or negative.\nUse the text of the review only.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Give a concise answer.\n\nExamples:\nInput: Review: The service was not dreadful.\nOutput: positive",
+    "hash": "967e41d94dd3c552aae89d5702a6a0bfabf2885c",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6651966666666667,
+    "length": 294,
+    "generation": 1,
+    "parent_ids": [
+      "p10"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.661,
+      "std": 0.06730419077977808,
+      "ci_low": 0.55,
+      "ci_high": 0.7833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.442220+00:00",
+    "bootstrap_mean": 0.661,
+    "bootstrap_std": 0.06730419077977808,
+    "confidence_interval": [
+      0.55,
+      0.7833333333333333
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6651966666666667
+  },
+  {
+    "id": "p11",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "21fca0b88a3edbebbcbd3747d28d991b8ba6ef5c",
+    "accuracy": 0.65,
+    "fitness": 0.648915,
+    "length": 217,
+    "generation": 1,
+    "parent_ids": [
+      "p5"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.6568333333333335,
+      "std": 0.06049250725786984,
+      "ci_low": 0.5666666666666667,
+      "ci_high": 0.7841666666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:29.440256+00:00",
+    "bootstrap_mean": 0.6568333333333335,
+    "bootstrap_std": 0.06049250725786984,
+    "confidence_interval": [
+      0.5666666666666667,
+      0.7841666666666665
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.648915
+  }
+]

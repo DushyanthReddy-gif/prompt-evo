@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p25",
+    "text": "Classify the sentiment of the review as positive or negative.\nOutput one label.\nUse the text of the review only.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.\n\nExamples:\nInput: Review: The game was awful.\nOutput: negative",
+    "hash": "1cbfabd5694a66f1f863f03a5c7bc2fcdfa5efec",
+    "accuracy": 0.8333333333333334,
+    "fitness": 0.8311933333333333,
+    "length": 428,
+    "generation": 3,
+    "parent_ids": [
+      "p21"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.831,
+      "std": 0.048142838350055256,
+      "ci_low": 0.7245833333333334,
+      "ci_high": 0.9254166666666666,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.054561+00:00",
+    "bootstrap_mean": 0.831,
+    "bootstrap_std": 0.048142838350055256,
+    "confidence_interval": [
+      0.7245833333333334,
+      0.9254166666666666
+    ],
+    "raw_accuracy": 0.8333333333333334,
+    "penalized_fitness": 0.8311933333333333
+  },
+  {
+    "id": "p21",
+    "text": "Classify the sentiment of the review as positive or negative.\nOutput one label.\nUse the text of the review only.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "b6eb0f41e83e4043e15e6b4d345cbfd3975f5f16",
+    "accuracy": 0.8,
+    "fitness": 0.7981750000000001,
+    "length": 365,
+    "generation": 2,
+    "parent_ids": [
+      "p19"
+    ],
+    "operator": "instruction_ordering",
+    "bootstrap": {
+      "mean": 0.8008333333333334,
+      "std": 0.05027282469045182,
+      "ci_low": 0.7,
+      "ci_high": 0.8920833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.050268+00:00",
+    "bootstrap_mean": 0.8008333333333334,
+    "bootstrap_std": 0.05027282469045182,
+    "confidence_interval": [
+      0.7,
+      0.8920833333333332
+    ],
+    "raw_accuracy": 0.8,
+    "penalized_fitness": 0.7981750000000001
+  },
+  {
+    "id": "p22",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "82ed9536f0cadee9eb9a9bc9a71719ff0128d3e0",
+    "accuracy": 0.8,
+    "fitness": 0.7982750000000001,
+    "length": 345,
+    "generation": 2,
+    "parent_ids": [
+      "p19"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.7991666666666667,
+      "std": 0.05496529871519602,
+      "ci_low": 0.7,
+      "ci_high": 0.9,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.051855+00:00",
+    "bootstrap_mean": 0.7991666666666667,
+    "bootstrap_std": 0.05496529871519602,
+    "confidence_interval": [
+      0.7,
+      0.9
+    ],
+    "raw_accuracy": 0.8,
+    "penalized_fitness": 0.7982750000000001
+  },
+  {
+    "id": "p19",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "0080cc0d547652caa6066b7794340e48c03546a6",
+    "accuracy": 0.7833333333333333,
+    "fitness": 0.7815083333333334,
+    "length": 365,
+    "generation": 2,
+    "parent_ids": [
+      "p15"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7861666666666666,
+      "std": 0.05626092611180937,
+      "ci_low": 0.6745833333333333,
+      "ci_high": 0.8920833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.047862+00:00",
+    "bootstrap_mean": 0.7861666666666666,
+    "bootstrap_std": 0.05626092611180937,
+    "confidence_interval": [
+      0.6745833333333333,
+      0.8920833333333332
+    ],
+    "raw_accuracy": 0.7833333333333333,
+    "penalized_fitness": 0.7815083333333334
+  },
+  {
+    "id": "p15",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Return the answer on one line as 'Answer: <answer>'.",
+    "hash": "8b77883ffa951d7d04c4650fe18f7cc057c991f9",
+    "accuracy": 0.7833333333333333,
+    "fitness": 0.7817433333333333,
+    "length": 318,
+    "generation": 1,
+    "parent_ids": [
+      "p11"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7814999999999998,
+      "std": 0.05704542659887261,
+      "ci_low": 0.6833333333333333,
+      "ci_high": 0.8920833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.045368+00:00",
+    "bootstrap_mean": 0.7814999999999998,
+    "bootstrap_std": 0.05704542659887261,
+    "confidence_interval": [
+      0.6833333333333333,
+      0.8920833333333332
+    ],
+    "raw_accuracy": 0.7833333333333333,
+    "penalized_fitness": 0.7817433333333333
+  },
+  {
+    "id": "p11",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n\nReasoning: Break the problem into steps and double-check the result.",
+    "hash": "1d1851d9693da23f1b899f4ca00334da6233f7b2",
+    "accuracy": 0.75,
+    "fitness": 0.748755,
+    "length": 249,
+    "generation": 0,
+    "parent_ids": [
+      "p2",
+      "p4"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.7491666666666665,
+      "std": 0.05388264047915259,
+      "ci_low": 0.6666666666666666,
+      "ci_high": 0.8754166666666665,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:28.040614+00:00",
+    "bootstrap_mean": 0.7491666666666665,
+    "bootstrap_std": 0.05388264047915259,
+    "confidence_interval": [
+      0.6666666666666666,
+      0.8754166666666665
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.748755
+  }
+]

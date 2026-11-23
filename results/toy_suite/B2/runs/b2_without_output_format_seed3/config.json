@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-11-09T10:57:31.672340+00:00",
+  "git_commit": null,
+  "random_seed": 3,
+  "worker_model": "toy-worker",
+  "optimizer_model": "toy-optimizer",
+  "dataset": "data/classification_dev.jsonl",
+  "dataset_hash": "7c38353bca41dd75",
+  "test_dataset_hash": "f72c5091cd828d2d",
+  "worker_budget": 1000,
+  "population_size": 6,
+  "max_generations": 10,
+  "operator_probabilities": {
+    "mutation": 0.8,
+    "crossover": 0.2,
+    "feedback": 0.0,
+    "operator_weights": {}
+  },
+  "config": {
+    "task": {
+      "name": "classification",
+      "description": "Classify the sentiment of a short review as 'positive' or 'negative'.",
+      "type": "classification",
+      "dataset": "data/classification_dev.jsonl",
+      "test_dataset": "data/classification_test.jsonl",
+      "fewshot_pool": null,
+      "seed_prompt": "prompts/classification_seed.txt",
+      "manual_prompt": "prompts/classification_manual.txt"
+    },
+    "optimizer": {
+      "population_size": 6,
+      "max_generations": 10,
+      "worker_budget": 1000,
+      "max_optimizer_calls": null,
+      "mutation_probability": 0.8,
+      "crossover_probability": 0.2,
+      "feedback_probability": 0.0,
+      "seed": 3,
+      "operators": [
+        "instruction_wording",
+        "instruction_ordering",
+        "constraints",
+        "few_shot",
+        "reasoning"
+      ],
+      "operator_weights": {},
+      "selection": "tournament",
+      "tournament_size": 3,
+      "robust_penalty": 0.5,
+      "adaptive": false,
+      "max_retries": 1,
+      "max_fewshot": 6,
+      "init_attempt_factor": 4,
+      "children_per_generation": null
+    },
+    "evaluation": {
+      "initial_slice_size": 20,
+      "promotion_slice_size": 50,
+      "promote_tolerance": 0.0,
+      "bootstrap_samples": 100,
+      "length_penalty": 0.01,
+      "max_prompt_chars": 2000,
+      "hard_max_prompt_chars": 6000,
+      "cache": true,
+      "eval_timeout_s": null,
+      "racing": {
+        "enabled": true,
+        "min_examples": 10,
+        "margin": 0.0,
+        "use_bound": true,
+        "use_confidence": false,
+        "z": 1.96,
+        "reference": "parent"
+      }
+    },
+    "worker": {
+      "provider": "custom",
+      "model": "toy-worker",
+      "temperature": 0.0,
+      "max_tokens": 512,
+      "base_url": null,
+      "api_key_env": "OPENAI_API_KEY",
+      "max_retries": 5,
+      "timeout_s": 60.0,
+      "class_path": "tests.fakes:ToyWorker",
+      "params": {},
+      "price_per_1k_prompt": 0.0,
+      "price_per_1k_completion": 0.0
+    },
+    "optimizer_llm": {
+      "provider": "custom",
+      "model": "toy-optimizer",
+      "temperature": 0.0,
+      "max_tokens": 512,
+      "base_url": null,
+      "api_key_env": "OPENAI_API_KEY",
+      "max_retries": 5,
+      "timeout_s": 60.0,
+      "class_path": "tests.fakes:ToyOptimizer",
+      "params": {},
+      "price_per_1k_prompt": 0.0,
+      "price_per_1k_completion": 0.0
+    },
+    "experiment": {
+      "name": "toy_suite",
+      "output_dir": "results",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "budgets": [
+        500,
+        1000,
+        2000
+      ],
+      "methods": [
+        "seed",
+        "manual",
+        "genetic",
+        "promptevo"
+      ],
+      "extra_workers": [
+        {
+          "provider": "custom",
+          "model": "toy-worker-strong",
+          "temperature": 0.0,
+          "max_tokens": 512,
+          "base_url": null,
+          "api_key_env": "OPENAI_API_KEY",
+          "max_retries": 5,
+          "timeout_s": 60.0,
+          "class_path": "tests.fakes:ToyWorker",
+          "params": {
+            "name": "toy-worker-strong",
+            "skill": 0.15
+          },
+          "price_per_1k_prompt": 0.0,
+          "price_per_1k_completion": 0.0
+        }
+      ],
+      "extra_tasks": [
+        {
+          "name": "math",
+          "description": "Solve the arithmetic problem and give the integer result.",
+          "type": "math",
+          "dataset": "data/math_dev.jsonl",
+          "test_dataset": "data/math_test.jsonl",
+          "fewshot_pool": null,
+          "seed_prompt": "prompts/math_seed.txt",
+          "manual_prompt": null
+        },
+        {
+          "name": "qa",
+          "description": "Answer the geography question with the capital city.",
+          "type": "qa",
+          "dataset": "data/qa_dev.jsonl",
+          "test_dataset": "data/qa_test.jsonl",
+          "fewshot_pool": null,
+          "seed_prompt": "prompts/qa_seed.txt",
+          "manual_prompt": null
+        }
+      ],
+      "transfer_worker": {
+        "provider": "custom",
+        "model": "toy-worker-strong",
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "base_url": null,
+        "api_key_env": "OPENAI_API_KEY",
+        "max_retries": 5,
+        "timeout_s": 60.0,
+        "class_path": "tests.fakes:ToyWorker",
+        "params": {
+          "name": "toy-worker-strong",
+          "skill": 0.15
+        },
+        "price_per_1k_prompt": 0.0,
+        "price_per_1k_completion": 0.0
+      }
+    }
+  }
+}

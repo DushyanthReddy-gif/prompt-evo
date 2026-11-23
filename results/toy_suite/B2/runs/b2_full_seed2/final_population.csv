@@ -1,0 +1,89 @@
+id,text,hash,accuracy,fitness,length,generation,parent_ids,operator,bootstrap,created_at,bootstrap_mean,bootstrap_std,raw_accuracy,penalized_fitness
+p25,"Classify the sentiment of the review as positive or negative. Be precise. Read the input closely.
+Use the text of the review only.
+Output one label.
+Respond accurately.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",839636812a052de6863003aaa2dd6a22ec53b502,0.8833333333333333,0.8812283333333333,421,3,['p24'],instruction_wording,"{'mean': 0.8826666666666668, 'std': 0.040819330382606704, 'ci_low': 0.8079166666666667, 'ci_high': 0.9587499999999999, 'n_samples': 100}",2026-11-09T10:57:30.886084+00:00,0.8826666666666668,0.040819330382606704,0.8833333333333333,0.8812283333333333
+p31,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Respond accurately.
+Output one label.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",b2d34a630acdc5e55fcba088d0e3838928645036,0.8333333333333334,0.8312483333333334,417,4,['p23'],instruction_ordering,"{'mean': 0.8333333333333333, 'std': 0.050084104348760275, 'ci_low': 0.7333333333333333, 'ci_high': 0.9087499999999998, 'n_samples': 100}",2026-11-09T10:57:30.889415+00:00,0.8333333333333333,0.050084104348760275,0.8333333333333334,0.8312483333333334
+p24,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Output one label.
+Respond accurately.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Verify your answer before responding.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",4c0f1d84a233f720b89f17b70bfaa8a782180707,0.8,0.798015,397,3,['p23'],reasoning,"{'mean': 0.7908333333333333, 'std': 0.05481194254919007, 'ci_low': 0.69125, 'ci_high': 0.8833333333333333, 'n_samples': 100}",2026-11-09T10:57:30.884486+00:00,0.7908333333333333,0.05481194254919007,0.8,0.798015
+p23,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Output one label.
+Respond accurately.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Return the answer on one line as 'Answer: <answer>'.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",fba9cc19744960ace176f8343323e5c12729b9db,0.7666666666666667,0.7645816666666667,417,3,['p20'],output_format,"{'mean': 0.7704999999999999, 'std': 0.05458007225460242, 'ci_low': 0.6579166666666667, 'ci_high': 0.8587499999999999, 'n_samples': 100}",2026-11-09T10:57:30.882801+00:00,0.7704999999999999,0.05458007225460242,0.7666666666666667,0.7645816666666667
+p20,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Output one label.
+Respond accurately.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",64962928b5383287e544c7260215b2e9dd73e7e4,0.75,0.74826,348,2,['p19'],instruction_wording,"{'mean': 0.7544999999999998, 'std': 0.05306831249668481, 'ci_low': 0.6333333333333333, 'ci_high': 0.8508333333333331, 'n_samples': 100}",2026-11-09T10:57:30.879270+00:00,0.7544999999999998,0.05306831249668481,0.75,0.74826
+p22,"Classify the sentiment of the review as positive or negative. Be precise.
+Use the text of the review only.
+Output one label.
+Respond accurately.
+
+Constraints:
+- Answer with only the final answer, no extra words.
+
+Reasoning: Break the problem into steps and double-check the result.
+
+Output format: Give a concise answer.
+
+Examples:
+Input: Review: The meal was wonderful.
+Output: positive",4ea042ef8a97d4de32edc2e10889e4d4bbdf4ab2,0.75,0.748065,387,2,['p20'],output_format,"{'mean': 0.7573333333333333, 'std': 0.05852278039290192, 'ci_low': 0.65, 'ci_high': 0.8754166666666665, 'n_samples': 100}",2026-11-09T10:57:30.881152+00:00,0.7573333333333333,0.05852278039290192,0.75,0.748065

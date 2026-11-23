@@ -1,0 +1,177 @@
+[
+  {
+    "id": "p16",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Finish with a line 'Answer: <answer>'.\n\nExamples:\nInput: Review: The hotel was not dreadful.\nOutput: positive",
+    "hash": "a6fe75d6b41a34a22d29c5f775a012046684a265",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7151266666666667,
+    "length": 308,
+    "generation": 2,
+    "parent_ids": [
+      "p7"
+    ],
+    "operator": "few_shot",
+    "bootstrap": {
+      "mean": 0.7206666666666668,
+      "std": 0.06526815961809143,
+      "ci_low": 0.6,
+      "ci_high": 0.85,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.340945+00:00",
+    "bootstrap_mean": 0.7206666666666668,
+    "bootstrap_std": 0.06526815961809143,
+    "confidence_interval": [
+      0.6,
+      0.85
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7151266666666667
+  },
+  {
+    "id": "p23",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Finish with a line 'Answer: <answer>'.\n\nExamples:\nInput: Review: The movie was wonderful.\nOutput: positive",
+    "hash": "546044ee30799f326804da69516282b63829b603",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7152416666666667,
+    "length": 285,
+    "generation": 3,
+    "parent_ids": [
+      "p21"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.7090000000000001,
+      "std": 0.06613508605258589,
+      "ci_low": 0.6,
+      "ci_high": 0.8254166666666666,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.345963+00:00",
+    "bootstrap_mean": 0.7090000000000001,
+    "bootstrap_std": 0.06613508605258589,
+    "confidence_interval": [
+      0.6,
+      0.8254166666666666
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7152416666666667
+  },
+  {
+    "id": "p7",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Break the problem into steps and double-check the result.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "15c207ebf7b6bbf6f41aa0edf5935e3747bb75a2",
+    "accuracy": 0.6833333333333333,
+    "fitness": 0.6821483333333334,
+    "length": 237,
+    "generation": 1,
+    "parent_ids": [
+      "p6",
+      "p4"
+    ],
+    "operator": "crossover",
+    "bootstrap": {
+      "mean": 0.6878333333333334,
+      "std": 0.060109094609467555,
+      "ci_low": 0.5833333333333334,
+      "ci_high": 0.8008333333333331,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.331726+00:00",
+    "bootstrap_mean": 0.6878333333333334,
+    "bootstrap_std": 0.060109094609467555,
+    "confidence_interval": [
+      0.5833333333333334,
+      0.8008333333333331
+    ],
+    "raw_accuracy": 0.6833333333333333,
+    "penalized_fitness": 0.6821483333333334
+  },
+  {
+    "id": "p21",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Verify your answer before responding.\n\nOutput format: Give a concise answer.\n\nExamples:\nInput: Review: The movie was wonderful.\nOutput: positive",
+    "hash": "b16d8f12144633615fcf3812485c4ad74cd4340d",
+    "accuracy": 0.65,
+    "fitness": 0.648655,
+    "length": 269,
+    "generation": 3,
+    "parent_ids": [
+      "p15"
+    ],
+    "operator": "reasoning",
+    "bootstrap": {
+      "mean": 0.6466666666666667,
+      "std": 0.06696063134702969,
+      "ci_low": 0.5166666666666667,
+      "ci_high": 0.7833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.343823+00:00",
+    "bootstrap_mean": 0.6466666666666667,
+    "bootstrap_std": 0.06696063134702969,
+    "confidence_interval": [
+      0.5166666666666667,
+      0.7833333333333333
+    ],
+    "raw_accuracy": 0.65,
+    "penalized_fitness": 0.648655
+  },
+  {
+    "id": "p6",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nOutput format: Finish with a line 'Answer: <answer>'.",
+    "hash": "e4da8b6c25e6427cfc49b2e15ceff30e3086d476",
+    "accuracy": 0.6333333333333333,
+    "fitness": 0.6324983333333333,
+    "length": 167,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.6296666666666666,
+      "std": 0.06528793172693323,
+      "ci_low": 0.5333333333333333,
+      "ci_high": 0.7587499999999999,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.329834+00:00",
+    "bootstrap_mean": 0.6296666666666666,
+    "bootstrap_std": 0.06528793172693323,
+    "confidence_interval": [
+      0.5333333333333333,
+      0.7587499999999999
+    ],
+    "raw_accuracy": 0.6333333333333333,
+    "penalized_fitness": 0.6324983333333333
+  },
+  {
+    "id": "p15",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nReasoning: Think briefly, then check your work.\n\nOutput format: Give a concise answer.\n\nExamples:\nInput: Review: The movie was wonderful.\nOutput: positive",
+    "hash": "aac7b596933cd554ed4aa047b989cc554e6585ee",
+    "accuracy": 0.6333333333333333,
+    "fitness": 0.6319933333333333,
+    "length": 268,
+    "generation": 2,
+    "parent_ids": [
+      "p11"
+    ],
+    "operator": "output_format",
+    "bootstrap": {
+      "mean": 0.6285000000000001,
+      "std": 0.06617219824387344,
+      "ci_low": 0.49125,
+      "ci_high": 0.75,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:31.339277+00:00",
+    "bootstrap_mean": 0.6285000000000001,
+    "bootstrap_std": 0.06617219824387344,
+    "confidence_interval": [
+      0.49125,
+      0.75
+    ],
+    "raw_accuracy": 0.6333333333333333,
+    "penalized_fitness": 0.6319933333333333
+  }
+]

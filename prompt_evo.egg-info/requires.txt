@@ -1,0 +1,13 @@
+pydantic>=2
+pyyaml
+numpy
+scipy
+pandas
+matplotlib
+rich
+
+[dev]
+pytest
+
+[openai]
+openai>=1.0

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "p33",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.\n- Read the input carefully before answering.",
+    "hash": "54ac77cdf2123c5d3d87fa3af772f4f367bb5b2a",
+    "accuracy": 0.7833333333333333,
+    "fitness": 0.7817583333333333,
+    "length": 315,
+    "generation": 2,
+    "parent_ids": [
+      "p30"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7891666666666667,
+      "std": 0.051649285661230365,
+      "ci_low": 0.69125,
+      "ci_high": 0.8833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.463249+00:00",
+    "bootstrap_mean": 0.7891666666666667,
+    "bootstrap_std": 0.051649285661230365,
+    "confidence_interval": [
+      0.69125,
+      0.8833333333333333
+    ],
+    "raw_accuracy": 0.7833333333333333,
+    "penalized_fitness": 0.7817583333333333
+  },
+  {
+    "id": "p32",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n- Read the input carefully before answering.",
+    "hash": "8c196d689fa98f9e721762bae9d562dbb93b6403",
+    "accuracy": 0.75,
+    "fitness": 0.74866,
+    "length": 268,
+    "generation": 2,
+    "parent_ids": [
+      "p25"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7478333333333331,
+      "std": 0.057766850170973036,
+      "ci_low": 0.64125,
+      "ci_high": 0.8420833333333332,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.461518+00:00",
+    "bootstrap_mean": 0.7478333333333331,
+    "bootstrap_std": 0.057766850170973036,
+    "confidence_interval": [
+      0.64125,
+      0.8420833333333332
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74866
+  },
+  {
+    "id": "p30",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.",
+    "hash": "f751dc716bf214e3788239be05db8ed198c59f56",
+    "accuracy": 0.75,
+    "fitness": 0.74865,
+    "length": 270,
+    "generation": 1,
+    "parent_ids": [
+      "p25"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7471666666666669,
+      "std": 0.0642689617065094,
+      "ci_low": 0.6245833333333334,
+      "ci_high": 0.8833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.398863+00:00",
+    "bootstrap_mean": 0.7471666666666669,
+    "bootstrap_std": 0.0642689617065094,
+    "confidence_interval": [
+      0.6245833333333334,
+      0.8833333333333333
+    ],
+    "raw_accuracy": 0.75,
+    "penalized_fitness": 0.74865
+  },
+  {
+    "id": "p25",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Do not add explanations after the answer.\n- Answer with only the final answer, no extra words.",
+    "hash": "7d0702571648ff0e1677ed6b05c646ed1cb393f9",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7155516666666667,
+    "length": 223,
+    "generation": 1,
+    "parent_ids": [
+      "p2"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7233333333333334,
+      "std": 0.05438153446423357,
+      "ci_low": 0.6079166666666667,
+      "ci_high": 0.8254166666666666,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.393131+00:00",
+    "bootstrap_mean": 0.7233333333333334,
+    "bootstrap_std": 0.05438153446423357,
+    "confidence_interval": [
+      0.6079166666666667,
+      0.8254166666666666
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7155516666666667
+  },
+  {
+    "id": "p26",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.\n- If uncertain, choose the most likely answer.",
+    "hash": "dba54ff2a47cbde69577011b1e6c5e528ad848f2",
+    "accuracy": 0.7166666666666667,
+    "fitness": 0.7155366666666667,
+    "length": 226,
+    "generation": 1,
+    "parent_ids": [
+      "p1"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.7125000000000001,
+      "std": 0.057069030993534185,
+      "ci_low": 0.6,
+      "ci_high": 0.8166666666666667,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.395162+00:00",
+    "bootstrap_mean": 0.7125000000000001,
+    "bootstrap_std": 0.057069030993534185,
+    "confidence_interval": [
+      0.6,
+      0.8166666666666667
+    ],
+    "raw_accuracy": 0.7166666666666667,
+    "penalized_fitness": 0.7155366666666667
+  },
+  {
+    "id": "p1",
+    "text": "Classify the sentiment of the review as positive or negative.\nUse the text of the review only.\nOutput one label.\n\nConstraints:\n- Answer with only the final answer, no extra words.",
+    "hash": "087b56f60e84d018a5817bd1c472428334eee91b",
+    "accuracy": 0.6666666666666666,
+    "fitness": 0.6657716666666667,
+    "length": 179,
+    "generation": 0,
+    "parent_ids": [
+      "p0"
+    ],
+    "operator": "constraints",
+    "bootstrap": {
+      "mean": 0.6685,
+      "std": 0.06311654372691383,
+      "ci_low": 0.5491666666666667,
+      "ci_high": 0.7833333333333333,
+      "n_samples": 100
+    },
+    "created_at": "2026-11-09T10:57:30.385427+00:00",
+    "bootstrap_mean": 0.6685,
+    "bootstrap_std": 0.06311654372691383,
+    "confidence_interval": [
+      0.5491666666666667,
+      0.7833333333333333
+    ],
+    "raw_accuracy": 0.6666666666666666,
+    "penalized_fitness": 0.6657716666666667
+  }
+]
